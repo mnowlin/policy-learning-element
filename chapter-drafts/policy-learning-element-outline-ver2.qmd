@@ -1,0 +1,70 @@
+---
+title: "DRAFT OUTLINE: Policy Learning and Information Processing Dynamics"
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+csl: /Users/nowlinmc/Dropbox/Projects/Manuscript-Files/csl/american-political-science-association.csl
+fig-cap-location: top
+fontfamily: ebgaramond
+link-bibliography: false
+format: docx 
+---
+
+# Chapter 1: Introduction
+
+* Discuss the difficulty of conceptualizing and measuring learning
+  * Micro vs collective foundations
+* Preview rest of book 
+
+# Chapter 2: Policy-Embedded Learning
+
+* Learning and the policy process
+	* Advocacy Coalition Framework
+	* Collective Learning Framework (Heikkila and Gerlak, 2013)
+	* Punctuated Equilibrium Theory and Information Processing 
+
+* Theoretical framework of policy-embedded learning 
+	* Micro foundations
+	* Collective learning 
+
+**Framework** 
+
+```{mermaid}
+flowchart LR
+    subgraph subgraph1 [<b>Information Processed by... </b>]
+	direction TB
+    B[Systems/ <br> Structures] <--> C[Policy <br> Actors]
+    end
+    A[Information] --> subgraph1
+    subgraph1 --> D[<b> Learning </b> <br> Policy Issue]
+    D --> subgraph1
+    subgraph subgraph2 [<b>Results in...</b>]
+    direction TB
+    E[<em> Belief </em> Change] --> 
+    F[<em> Behavior </em> Change] -->
+    G[<em> <b> Policy Change </b> </em>]
+    end
+    D --> subgraph2
+```
+
+_Information_: Information is in the policy process. It comes in the form of information about conditions and problems collected by government agencies (e.g., inflation, unemployment, crime); lobbying by interest groups; reporting by the media; public opinion data, among many others. Information flows need to processed to determine what, if any, actions need to be taken. However, given the amount of information only some of it is process and much of it is ignored. 
+
+_Information Processing_: The processing of information involves policymaking institutions and the systems and structures they create as well as the policy actors involved in those institutions. Institutions are structured to allow for the parallel processing of information; however institutions can only act on issue at a time. For example, legislative institutions can process information about multiple issues through a committee structure, yet they can only vote on piece of legislation at a time. The systems and structures of institutional arraignments create friction that slows the path of information processing to learning to action, which leads to disproportionate information processing. The disproportionate processing of information leads to under and over reactions to information as well as  punctuated process of learning and policy change where problems are left unaddressed until major policy change is needed.     
+
+Similarly, policy actors have cognitive biases that create friction in learning. For example, policy actors may engage in motivated reasoning and downplay the importance of information that would imply their beliefs are wrong. 
+
+_Learning_: Learning through information processing occurs as beliefs are updated in response to information. Specifically, learning about policy issues involves changes in how the issues are defined or understood. Policy issues contain multiple dimensions and issue definitions involve how those dimensions are weighed, bundled, and placed together. Learning with regard to policy issues involves changes in the dimensions of the issue. Similar to policy subsystems, issue definitions can reach static, equilibrium points and learning shifts that equilibrium as new dimensions are added or current dimensions are reconsidered. 
+
+_Outcomes_: Several results of learning are possible. At its core, policy learning involves changes in beliefs and other learning outcomes are downstream of belief changes. Once belief change occurs, policy actors may engage in different behaviors or develop different strategies to obtain their goals. Policy change may then occur as a result of different behaviors.  
+
+# Chapter 3: Information Processing, Issue Definitions, and Policy-Embedded Learning 
+
+* Issue definitions and learning
+	* Changing issue definitions as a mechanism for learning
+* Empirical analysis I: Nuclear energy
+	* Pools 17 years (2006-2023) of survey data on public views about nuclear energy
+* Empirical analysis II: Case vignettes 
+	* Use extant literature to demonstrate examples 
+
+# Chapter 4: Conclusion 
+
+* Recap 
+* Next steps 
