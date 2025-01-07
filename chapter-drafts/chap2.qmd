@@ -1,0 +1,20 @@
+---
+title: "Chapter 2: Information and Policy-Embedded Learning"
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+csl: /Users/nowlinmc/Dropbox/Projects/Manuscript-Files/csl/american-political-science-association.csl
+fig-cap-location: top
+fontfamily: ebgaramond
+link-bibliography: false
+format: docx 
+---
+
+# Introduction 
+
+In this chapter we examine information and policy learning in the broader context of policy making processes. Specifically, we draw on policy process theories, including the Advocacy Coalition Framework (ACF) and Punctuated Equilibrium Theory (PET) to develop of model of policy learning and information initially introduced by @nowlinPolicyLearningInformation2021. Next, we discuss the information processing and learning model in the context of the policy-embedded learning framework [@zakiSystematicReviewPolicy2022] to illustrate how the model accounts for policy learning among policy actors at the micro and macro level. Additionally, by joining the learning and information processing model and the policy-embedded learning framework we can illustrate learning embedded in institutions and issue contexts can generate several potential learning outcomes.  
+
+# Learning and the Policy Process 
+
+Several of the theories and frameworks of the policy process discuss policy learning at least implicitly. For example, within the Multiple Streams Approach, learning can occur in epistemic communities in the policy stream, through changes in indicators in the problem stream, and experimenting with various political strategies in the politics stream [@herwegMultipleStreamsFramework2023].  
+
+
+
