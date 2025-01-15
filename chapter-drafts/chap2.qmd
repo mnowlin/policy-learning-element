@@ -20,22 +20,28 @@ In this chapter we examine information and policy learning in the broader contex
 
 Several of the theories and frameworks of the policy process discuss policy learning at least implicitly. For example, within the Multiple Streams Approach, learning can occur in epistemic communities in the policy stream, through changes in indicators in the problem stream, and experimenting with various political strategies in the politics stream [@herwegMultipleStreamsFramework2023]. Additionally, learning may be part of the policy diffusion or transfer process as one government learns from another []. 
 
-Among the various policy process theories and frameworks, the Advocacy Coalition Framework (ACF) has the most developed conceptualization of policy learning. Within the ACF, policy-oriented learning is a cognitive process based in policy beliefs and belief change. Specifically, policy-oriented learning is "enduring alterations of thought or behavioral intentions that result from experience, and which are concerned with the attainment or revision of the precepts of the belief systems of individuals or of collectives" [@jenkins-smithDynamicsPolicyOrientedLearning1993, 42]. With this definition learning includes changes in _thought_ and _behavior_ that result from changes in the _belief systems_ of _individuals_ or _collectives_. 
+Among the various policy process theories and frameworks, the Advocacy Coalition Framework (ACF) has the most developed conceptualization of policy learning. Within the ACF, policy-oriented learning is a cognitive process based in policy beliefs and belief change. Specifically, policy-oriented learning is "enduring alterations of thought or behavioral intentions that result from experience, and which are concerned with the attainment or revision of the precepts of the belief systems of individuals or of collectives" [@jenkins-smithDynamicsPolicyOrientedLearning1993, 42]. Learning involves changes in _thought_ and _behavior_ that result from changes in the _belief systems_ of _individuals_ or _collectives_. This definition includes a cognitive process that produces belief and behavior change and recognizes that learning occurs among individuals and collectives [also see @gerlakBuildingTheoryLearning2011; @heikkilaBuildingConceptualApproach2013].
 
-Early work using the ACF noted that changes in the "distributions of beliefs" result from several processes including, 
+Early work using the ACF noted that changes in the overall "distributions of beliefs" within a subsystem results from several processes, including
 
 > 1) individual learning and attitude change, 2) the diffusion of new beliefs and attitudes among individuals, 3) turnover in individuals within any collectivity, 4) group dynamics, such as the polarization of homogenous groups or groups in conflict, and 5) rules for aggregating preferences and for promoting (or impeding) communication among individuals [@jenkins-smithDynamicsPolicyOrientedLearning1993, 42].
 
-The majority of work regarding policy-oriented learning has focused on the first process; individual learning and attitude (i.e., belief) change. However, ACF scholarship has also noted that belief reinforcement can be a type of, or an outcome  of policy-oriented learning [@pattisonFactorsShapingPolicy2018]. In fact, belief reinforcement is likely the most common kind of policy learning [@weibleAdvocacyCoalitionsBeliefs2022]. Recent work has proposed that policy learning as change and reinforcement can be explained when policy beliefs are understood as a probability distribution with a central tendency (the belief) and variance (uncertainty about the belief) [@nowlinPolicyBeliefsBelief2024]. With this approach, learning as belief change occurs when there is a shift in the central tendency and learning as belief reinforcement occurs when there is a reduction in variance. More broadly, using this approach policy-oriented learning outcomes include no change in beliefs (i.e., no learning), belief reinforcement (i.e., a reduction in uncertainty), belief change (i.e., learning, or a significant shift in the central tendency), or belief change and reinforcement (i.e., a shift in beliefs and a reduction of uncertainty) [@nowlinPolicyBeliefsBelief2024].  
+The first two processes involve the role of policy-oriented learning in belief system changes within a subsystem, yet the majority of work has focused on the first process; individual learning and attitude (i.e., belief) change. However, ACF scholarship has also noted that belief reinforcement can be a type of, or an outcome  of policy-oriented learning [@pattisonFactorsShapingPolicy2018]. In fact, belief reinforcement is likely the most common kind of policy learning [@weibleAdvocacyCoalitionsBeliefs2022]. Recent work has proposed that policy learning as change and reinforcement can be explained when policy beliefs are understood as a probability distribution with a central tendency (the belief) and variance (uncertainty about the belief) [@nowlinPolicyBeliefsBelief2024]. With this approach, learning as belief change occurs when there is a shift in the central tendency and learning as belief reinforcement occurs when there is a reduction in variance. More broadly, using this approach policy-oriented learning outcomes include no change in beliefs (i.e., no learning), belief reinforcement (i.e., a reduction in uncertainty), belief change (i.e., learning, or a significant shift in the central tendency), or belief change and reinforcement (i.e., a shift in beliefs and a reduction of uncertainty) [@nowlinPolicyBeliefsBelief2024]. The likelihood of belief change is a function of the strength of the belief, with strongly held beliefs with low uncertainty less likely to change than less strongly held or less certain beliefs [@nowlinPolicyLearningInformation2021; @jenkins-smithAdvocacyCoalitionFramework2018].    
 
 <!-- more about context of learning forums; deliberation -->
-Learning in the ACF is largely based on individual-level cognitive processes; however, policy learning typically occurs in a collective context [@gerlakBuildingTheoryLearning2011; @heikkilaBuildingConceptualApproach2013]. An important collective context for learning is the nature of the policy subsystem in which policy actors engage. Subsystems are the key unit of analysis within the ACF, and they can vary on several key dimensions. As noted by @weibleExpertBasedInformationPolicy2008, subsystems can be unitary, collaborative, or adversarial. Unity subsystems involve one dominant coalition and a single understanding of the policy issue. Policy-oriented learning in unitary subsystems happens within the dominant coalition, and is likely belief reinforcement [@weibleExpertBasedInformationPolicy2008]. Additionally, in unitary subsystems policy-oriented learning as belief change is likely impeded by the status-quo bias of the dominant coalition and the negative feedback that is exerted regarding new information [@jonesPoliticsAttentionHow2005]. Collaborative subsystems involve cooperative coalitions with a shared understanding of the policy issue and learning as both belief change and belief reinforcement may occur within and across coalitions. Finally, adversarial subsystems include two or more coalition competing for policy influence with a debated understanding of the policy issue. Given that beliefs are contested in adversarial subsystems, belief reinforcement within coalitions is the most likely policy-oriented learning in an adversarial subsystem.  
 
-More broadly, collective learning can be understood as: 
+As noted, learning occurs within and across individuals and collectives, with policy-oriented learning most likely to happen as part of a collective learning process. More broadly, collective learning can be understood as: 
 
 > 1) a "collective process", which may include acquiring information through diverse actions (e.g. trial and error), assessing or translating information, and disseminating knowledge or opportunities across individuals in a collective, and 2) "collective products" that emerge from the process, such as new shared ideas, strategies, rules, or policies [@gerlakBuildingTheoryLearning2011, 623]. 
 
-With this definition, learning is a _process_ that results in one or more _products_. The process of learning involves the, "(i) acquisition; (ii) translation; and (iii) dissemination of knowledge, information, and experience" [@heikkilaBuildingConceptualApproach2013, 487]. Learning products are cognitive such as changed or reinforced beliefs and behavioral, including new strategies and policy change [@heikkilaBuildingConceptualApproach2013]. In the next section, we focus on the process of learning, specifically the role of information and information processing.  
+With this definition, learning is a _process_ that results in one or more _products_. The process of learning involves the, "(i) acquisition; (ii) translation; and (iii) dissemination of knowledge, information, and experience" [@heikkilaBuildingConceptualApproach2013, 487]. Learning products are cognitive such as changed or reinforced beliefs and behavioral, including new strategies and policy change [@heikkilaBuildingConceptualApproach2013]. 
+
+Additionally, learning occurs both within coalitions and between coalitions. Learning within coalitions relatively straight-forward given the nature of the shared beliefs; however, learning between coalitions is, in part, a function of the collective context in which information is processed and issue discussed. According to ACF scholarship, learning across coalitions is more likely when a) there is an intermediate level of conflict, because in such contexts coalitions have the resources to engage and the core beliefs of both coalitions are not at stake; b) issues that are analytically tractable and high-quality data is available; and c) a forum that encourages participation of representatives of the various coalitions and professional norms of engagement [@jenkins-smithDynamicsPolicyOrientedLearning1993]. 
+
+Another important collective context for learning is the nature of the policy subsystem in which policy actors engage. Subsystems are the key unit of analysis within the ACF, and they can vary on several key dimensions. As noted by @weibleExpertBasedInformationPolicy2008, subsystems can be unitary, collaborative, or adversarial. Unity subsystems involve one dominant coalition and a single understanding of the policy issue. Policy-oriented learning in unitary subsystems happens within the dominant coalition, and is likely belief reinforcement [@weibleExpertBasedInformationPolicy2008]. Additionally, in unitary subsystems policy-oriented learning as belief change is likely impeded by the status-quo bias of the dominant coalition and the negative feedback that is exerted regarding new information [@jonesPoliticsAttentionHow2005]. Collaborative subsystems involve cooperative coalitions with a shared understanding of the policy issue and learning as both belief change and belief reinforcement may occur within and across coalitions. Finally, adversarial subsystems include two or more coalition competing for policy influence with a debated understanding of the policy issue. Given that beliefs are contested in adversarial subsystems, belief reinforcement within coalitions is the most likely policy-oriented learning in an adversarial subsystem.  
+
+Information context ... 
+In the next section, we focus on the process of learning, specifically the role of information and information processing.  
 
 # Information Processing 
 
@@ -55,7 +61,75 @@ For @heikkilaBuildingConceptualApproach2013, the final part of the learning proc
 
 # Model of Policy Learning and Information Processing 
 
+Recent work combined policy-oriented learning with the insights from the literature on information processing to develop a model of policy learning through information processing [@nowlinPolicyLearningInformation2021]. The model is focused on cognitive processes associated with learning and uses a Bayesian framework to illustrate belief change, or updating. Additionally, the model can be applied to learning by both individuals and collectives. In brief, Bayesian updating involves a prior belief, some information that is examined through a likelihood function, and a posterior belief that is a function of the prior beliefs and the information. In more formal terms and using notation from @druckmanEvidenceMotivatedReasoning2019, a prior belief is understood as a probability distribution about the true state of the world expressed as $\pi$($\mu$) ~ _N_($\hat{\mu}_0$, $\hat{\sigma}^{2}_{0}$) where $\pi$($\mu$) is the true state of the world, $\hat{\mu}_0$ is an individual's belief about the state of the world, and $\hat{\sigma}_0$ is their uncertainty about their beliefs. Next, the individual encounters some information, _x_, about the true state of the world expressed as _N_($\mu$, $\hat{\sigma}^{2}_{x}$), where $\hat{\sigma}^{2}_{x}$ represents the individual's likelihood function, or her perception of the information such as its validity, credibility, or reliability. Finally, the individual updates her beliefs in light of the information, $\pi$($\mu$|x). 
+
+The steps of the learning through information processing model include: 
+
+* **Prior belief**: $\pi$($\mu$) ~ _N_($\hat{\mu}_0$, $\hat{\sigma}^{2}_{0}$) 
+* **Information processing (likelihood function)**: _N_($\mu$, $\hat{\sigma}^{2}_{x}$) 
+* **Posterior belief**: $\pi$($\mu$|x) 
+
+Under this model learning occurs when beliefs or belief certainty changes in the direction of the information [@nowlinPolicyLearningInformation2021; @nowlinPolicyBeliefsBelief2024]. The model is about the process of learning and does not consider the validity of the beliefs or the information, only the process. As noted by @coppockPersuasionParallelHow2023, "people are free to have bonkers prior beliefs and loopy likelihood functions" (123). Additionally, if individuals were perfectly rational and motivated solely for accuracy, then the posterior beliefs would be updated in direct proportion to the information. In other words, a "strong" information signal -- one that is valid, credible, reliable, and reflects the true state of the world -- would lead to shifts in beliefs that reflect the strength of the signal. However, individuals are not perfectly rational and therefore will weigh the information, as noted by $\hat{\sigma}^{2}_{x}$, often based on the strength of their prior beliefs [@nowlinPolicyLearningInformation2021]. As a result, information may or may not lead to learning. Next, we discuss several possible learning outcomes, or results of the learning process described above.  
+
+## Learning Outcomes 
+
+The process of learning leads to one or more possible outcomes, or products based on the motivation and biases of the individual or group. As noted, beliefs are probably distributions with a central tendency (the belief), $\hat{\mu}_0$, and uncertainty, $\hat{\sigma}^{2}_{0}$ about the belief. Changes in either the belief or certainty are a possible outcome; however, the changes must reflect the information to be considered learning.   
+
+Possible learning outcomes associated with beliefs include: 
+
+* No learning: No change in beliefs or certainty 
+* Belief decay: A decrease in certainty 
+* Belief reinforcement: An increase in certainty 
+* Belief change: A change in the central tendency of the belief distribution 
+
+Other outcomes could include a back-lash or boomerang effect where beliefs move in the opposite direction of the information [@druckmanEvidenceMotivatedReasoning2019], or changes in beliefs coupled with decay and/or reinforcement. For example, me ...  
+
+As noted, if individuals were comprehensively rational and motivated for accuracy, then they would update their beliefs in a way that is proportionate to the information. 
+
+There are several possible reasons as to why individuals or groups may not learn in light of information. @heikkilaDiagnosingIndividualBarriers2023 discuss several including in-group/out-group, confirmation bias, desirability bias, availability bias, negativity bias (loss aversion), anchoring bias, and status quo bias. 
+
+# Policy Embedded Learning 
+
+The notion of policy-embedded learning developed through a systematic review of the policy learning literature [@zakiSystematicReviewPolicy2022]. By closely examining the literature @zakiSystematicReviewPolicy2022 were able to draw several important concepts associated with learning including information and knowledge; systems and structures; and policy actors. These concepts interact within a particular policy context. As noted by @zakiSystematicReviewPolicy2022, "we conceptualize policy learning as the circulation and consumption of policy issue-related information and knowledge among actors in a policy system and structure, within a policy context" (22). 
+
+**Bishoy** 
+
+```{mermaid}
+%%| fig-cap: Information Processing and Policy Embedded Learning
+%%| label: fig-model
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    subgraph subgraph1 [<b>Information Processed by... </b>]
+	direction TB
+    B[Systems/ <br> Structures] <--> C[Policy <br> Actors]
+    end
+    A[Information] --> subgraph1
+    subgraph1 --> D[<b> Learning </b> <br> Policy Issue]
+    D --> subgraph1
+    subgraph subgraph2 [<b>Results in...</b>]
+    direction TB
+    E[<em> Belief </em> Change] --> 
+    F[<em> Preference </em> Change] -->
+    G[<em> Behavior </em> Change] -->
+    H[<em> <b> Policy Change </b> </em>]
+    end
+    D --> subgraph2
+```
+
+_Information_: Information is ubiquitous in the policy process. It comes in the form of information about conditions and problems collected by government agencies (e.g., inflation, unemployment, crime); lobbying by interest groups; reporting by the media; public opinion data, among many others. Information flows need to processed to determine what, if any, actions need to be taken. However, given the amount of information only some of it is process and much of it is ignored. 
+
+_Information Processing_: The processing of information involves policymaking institutions and the systems and structures they create as well as the policy actors involved in those institutions. Institutions are structured to allow for the parallel processing of information; however institutions can only act on issue at a time. For example, legislative institutions can process information about multiple issues through a committee structure, yet they can only vote on piece of legislation at a time. The systems and structures of institutional arraignments create friction that slows the path of information processing to learning to action, which leads to disproportionate information processing. The disproportionate processing of information leads to under and over reactions to information as well as  punctuated process of learning and policy change where problems are left unaddressed until major policy change is needed.     
+
+Similarly, policy actors have cognitive biases that create friction in learning [@moysonKnowBetterSelfesteem2024]. For example, policy actors may engage in motivated reasoning and downplay the importance of information that would imply their beliefs are wrong. 
+
+<!-- attention vs learning -->
+
+_Learning_: Learning through information processing occurs as beliefs are updated in response to information. Specifically, learning about policy issues involves changes in how the issues are defined or understood. Policy issues contain multiple dimensions and issue definitions involve how those dimensions are weighed, bundled, and placed together. Learning with regard to policy issues involves changes in the dimensions of the issue. Similar to policy subsystems, issue definitions can reach static, equilibrium points and learning shifts that equilibrium as new dimensions are added or current dimensions are reconsidered. 
+
+_Outcomes_: Several results of learning are possible. At its core, policy learning involves changes in beliefs and other learning outcomes are downstream of belief changes. Once belief change occurs, policy actors may engage in different behaviors or develop different strategies to obtain their goals. Policy change may then occur as a result of different behaviors.  These are theoretical antecedents (one must precede the next), and typically all must be present (empirical question)(but super conducting super collider example from [@jonesReconceivingDecisionMakingDemocratic1994])
 
 
+
+## References 
 
 
