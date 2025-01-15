@@ -82,7 +82,8 @@ Possible learning outcomes associated with beliefs include:
 * Belief reinforcement: An increase in certainty 
 * Belief change: A change in the central tendency of the belief distribution 
 
-Other outcomes could include a back-lash or boomerang effect where beliefs move in the opposite direction of the information [@druckmanEvidenceMotivatedReasoning2019], or changes in beliefs coupled with decay and/or reinforcement. For example, me ...  
+Other outcomes could include a back-lash or boomerang effect where beliefs move in the opposite direction of the information [@druckmanEvidenceMotivatedReasoning2019], or changes in beliefs coupled with decay and/or reinforcement. For example, @nowlinPolicyBeliefsBelief2024 found that following a deliberative mini-public about several environmental issues, the beliefs of participants changed in various ways on different issues. On some issues participants, experienced no learning (no changes in beliefs or certainty) following the deliberation, while on other issues participants saw belief changes (a significant shift in the mean), and belief reinforcement (a reduction in uncertainty). However, on other issues participants saw belief change and reinforcement, where beliefs changed in conjunction with a decrease in uncertainty. In addition, @nowlinLearningUncertainlyInformation2025 examining learning and information environments found that some members of the public experienced belief change and belief decay, where beliefs changed significantly, but uncertainty also increased over a ten-year period.  
+
 
 As noted, if individuals were comprehensively rational and motivated for accuracy, then they would update their beliefs in a way that is proportionate to the information. 
 
