@@ -1,0 +1,35 @@
+---
+title: "Chapter 3: Issue Definitions and Policy-Embedded Learning"
+bibliography: /Users/nowlinmc/Dropbox/refs.bib
+csl: /Users/nowlinmc/Dropbox/Projects/Manuscript-Files/csl/american-political-science-association.csl
+fig-cap-location: top
+fontfamily: ebgaramond
+link-bibliography: false
+format: docx 
+---
+
+# Introduction 
+
+Policy learning through information processing occurs as information is processed and the beliefs of policy actors, individual or collective, are changed. The processing of information occurs as the various information signals are weighted relative to prior beliefs. Learning occurs when the posterior beliefs of policy actors shift and/or certainty shifts in the direction of the processed information. In addition, learning is embedded within a policy context where information is processing by policy actors within institutional systems and structures. 
+
+In this chapter, we further examine the possible outcomes of policy-embedded learning as well as the role that shifting issue definitions plays as a mechanism of policy learning through information processing. Additionally, we demonstrated our framework empirically using US public opinion data about nuclear energy as well as a few case vignettes.  
+
+
+# Outcomes of Policy-Embedded Learning 
+
+As discussed in Chapter 2, information processing and policy-embedded learning can result in changes in beliefs, preferences, behaviors, and policies. The conditions under which policy learning leads to policy change has long been a central question, yet establishing how learning causes policy change has been elusive [@bennettLessonsLearningReconciling1992; @zakiPolicyLearningGovernance2024]. Previous research has gained analytical traction of this issue by separating the process of learning from the products of learning, thus allowing insights into how learning processes connect to learning products (or outcomes) such as policy change [@heikkilaBuildingConceptualApproach2013]. More recently, @plumerWhenDoesPolicy2024 develop a "Learning Product Framework" that examines "three central features of learning products", including "(1) whether the observed learning product reflects a change in policy beliefs , (2) whether it signifies a change in policy preferences, and (3) whether it results in a change in policy outputs" (7). Building on the Learning Product Framework, we also include behavior change as a central feature of learning products that makes policy change more likely.
+
+The learning products of belief change, preference change, and behavior change creates distinct pathways to policy change. 
+
+
+## Belief and Preference Change 
+
+At the heart of the policy learning through information processing model is belief change as a result of information. However, what distinguishes policy beliefs from policy preferences has not always been clear. 
+
+## Preference Change 
+
+
+## Behavior Change 
+
+
+## Policy Change 
