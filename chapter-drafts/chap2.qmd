@@ -129,7 +129,29 @@ The processing of information involves policymaking institutions and the systems
 
 As discussed, policy learning through information processing occurs as beliefs are updated in response to information. In the context of policy-embedded learning, learning through information processing happens within a policy context and about a policy issue. Specifically, learning about policy issues involves changes in how the issues are defined or understood. Policy issues contain multiple dimensions, and issue definitions involve how those dimensions are weighted, bundled, and placed together [@nowlinModelingIssueDefinitions2016]. Learning with regard to policy issues involves changes in the dimensions of the issue as a result of information and information processing. Similar to policy subsystems, issue definitions can reach static equilibrium points and learning shifts that equilibrium as new dimensions are added or current dimensions are reconsidered. 
 
-Several results of learning are possible. As shown in @fig-model, these outcomes include belief change, policy preference change, behavior change, and policy change; however, at its core, policy learning involves changes in beliefs, and other learning outcomes are downstream of belief changes. Once belief change occurs, policy actors may engage in different behaviors or develop different strategies to obtain their goals. Policy change may then occur as a result of different behaviors.  
+Several results of learning are possible. As shown in @fig-model, these outcomes include belief change, policy preference change, behavior change, and policy change; however, at its core, policy learning involves changes in beliefs, and other learning outcomes are downstream of belief changes. Once belief change occurs, policy actors may engage in different behaviors or develop different strategies to obtain their goals. Policy change may then occur as a result of different behaviors. 
+
+The conditions under which policy learning leads to policy change has long been a central question, yet establishing how learning causes policy change has been elusive [@bennettLessonsLearningReconciling1992; @zakiPolicyLearningGovernance2024]. Previous research has gained analytical traction on this issue by separating the process of learning from the products of learning, thus allowing insights into how learning processes connect to learning products (or outcomes) such as policy change [@heikkilaBuildingConceptualApproach2013]. More recently, @plumerWhenDoesPolicy2024 developed a "Learning Product Framework" that examines "three central features of learning products", including "(1) whether the observed learning product reflects a change in policy beliefs , (2) whether it signifies a change in policy preferences, and (3) whether it results in a change in policy outputs" (7). Building on the Learning Product Framework, we also include behavior change as a central feature of learning products that makes policy change more likely.
+
+The learning products of belief change, preference change, and behavior change creates distinct pathways to policy change. The product of belief change, as discussed in Chapter 2, involves information processing and change in the direction of information. Preference change involve changes in the goals policy actors are hoping to obtain [@plumerWhenDoesPolicy2024;@moysonCognitionPolicyChange2017]. The distinction between policy beliefs and preferences will be discussed in the next section. Finally, policy actors may change or adapt new behaviors as policy beliefs and preferences change. Additionally, behavior change may involve, "new or enhanced informal routines and strategies, [...] new or expanded programs and plans that structure group behavior, or highly formalized rules or sets of institutional arrangements and policies" [@heikkilaBuildingConceptualApproach2013, 491-492]. 
+
+The causal pathways from policy learning to policy change include three possible outcomes, including no policy change, non-congruent policy change, and congruent policy change [@plumerWhenDoesPolicy2024]. No policy change results when only beliefs change or only beliefs and preference change, without a subsequent change in policy. Non-congruent policy change happens when policy change occurs but is not aligned with the changed beliefs and preferences. The final pathway noted by @plumerWhenDoesPolicy2024 is congruent policy change, where policy change matches the changed policy beliefs and preferences. To this approach, we add congruent and non-congruent behavior change that precedes policy changes. Non-congruent behavior change involve changes in behaviors that do not align with updated beliefs and preferences, whereas congruent behavior change does align.     
+
+
+| **Belief Change** | **Preference Change** | **Behavior Change** | **Policy Change** | 
+| --- | ---: | ---: | ------: | 
+| X | | | | 
+| X | X | | | 
+| X | X | X (non-congruent) | | 
+| X | X | X (non-congruent) | X (non-congruent) | 
+| X | X | X (congruent) | | 
+| X | X | X (congruent) | X (congruent) | 
+
+: Pathways of Policy Learning and Policy Change {#tbl-paths}
+
+@tbl-paths, adapted from @plumerWhenDoesPolicy2024, shows the various pathways through which policy change as a result of policy learning through information processing may happen. As each learning product happens, the liklihood of policy change through policy learning increases; however, non-congruent changes in behavior and policy are also likely as changes may not align with updated beliefs and preferences. 
+
+
 
 {{< pagebreak >}} 
 

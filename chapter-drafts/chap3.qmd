@@ -10,26 +10,37 @@ format: docx
 
 # Introduction 
 
-Policy learning through information processing occurs as information is processed and the beliefs of policy actors, individual or collective, are changed. The processing of information occurs as the various information signals are weighted relative to prior beliefs. Learning occurs when the posterior beliefs of policy actors shift and/or certainty shifts in the direction of the processed information. In addition, learning is embedded within a policy context where information is processing by policy actors within institutional systems and structures. 
+Policy learning through information processing occurs as information is processed and the beliefs of policy actors, individual or collective, are changed. The processing of information occurs as the various information signals are weighted relative to prior beliefs. Learning occurs when the posterior beliefs of policy actors shift and/or certainty shifts in the direction of the processed information. In addition, learning is embedded within a policy context where information is processing by policy actors within institutional systems and structures. Finally, the process of learning through information processing produces several possible learning products including policy belief change, policy preference change, behavior change, and policy change.   
 
-In this chapter, we further examine the possible outcomes of policy-embedded learning as well as the role that shifting issue definitions plays as a mechanism of policy learning through information processing. Additionally, we demonstrated our framework empirically using US public opinion data about nuclear energy as well as a few case vignettes.  
-
-
-# Outcomes of Policy-Embedded Learning 
-
-As discussed in Chapter 2, information processing and policy-embedded learning can result in changes in beliefs, preferences, behaviors, and policies. The conditions under which policy learning leads to policy change has long been a central question, yet establishing how learning causes policy change has been elusive [@bennettLessonsLearningReconciling1992; @zakiPolicyLearningGovernance2024]. Previous research has gained analytical traction of this issue by separating the process of learning from the products of learning, thus allowing insights into how learning processes connect to learning products (or outcomes) such as policy change [@heikkilaBuildingConceptualApproach2013]. More recently, @plumerWhenDoesPolicy2024 develop a "Learning Product Framework" that examines "three central features of learning products", including "(1) whether the observed learning product reflects a change in policy beliefs , (2) whether it signifies a change in policy preferences, and (3) whether it results in a change in policy outputs" (7). Building on the Learning Product Framework, we also include behavior change as a central feature of learning products that makes policy change more likely.
-
-The learning products of belief change, preference change, and behavior change creates distinct pathways to policy change. 
+In this chapter, we further examine the role that shifting issue definitions plays as a mechanism of policy learning through information processing. Additionally, we demonstrated our framework empirically using US public opinion data about nuclear energy as well as a few case vignettes.  
 
 
-## Belief and Preference Change 
+# Policy Beliefs and Issue Definitions 
+
+Many policy issues are inherently complex and ambiguous, which means that they have multiple attributes and those attributes can be understood, or interpreted in different ways. How issues are defined can have profound implications for policymaking with regard to that issue. Issue definitions are understood as social constructions [], policy images[], and as the result of policy beliefs []. Policy scholars have long emphasized the importance of issue definitions for policymaking, yet less work has examined connections between issue definitions and policy core beliefs. 
+
+Policy core beliefs are "bound by scope and topic to the subsystem"; have normative considerations that "may reflect basic orientation and value priorities for the policy subsystem" such as "whose welfare ... is of greatest concern"; and empirical considerations that involve, "overall assessments of the seriousness of the problem, basic causes of the problem, and preferred solutions for the addressing the problem" [@jenkins-smithAdvocacyCoalitionFramework2018, 140-141]. @jenkins-smithAdvocacyCoalitionFramework2018 go on to note that the "belief system model" of the ACF "needs to be further specified" (154), and I am positing that incorporating issue definitions can further specify policy core beliefs.
+
+As noted, policy core beliefs contain a normative component as well as an empirical component. Issue definitions can be understood as the empirical components of policy beliefs, and in this way act as the nucleus of policy core beliefs. Policy issues contain multiple attributes, and the various attributes can be considered dimensions in a multi-dimensional issue space [@jochimIssuePoliticsPolarized2013; @jonesPoliticsAttentionHow2005]. However, policy actors have bounded rationality and are not able to consider all of the possibly relevant dimensions and therefore only focus on a few dimensions of the issue [@jonesModelChoicePublic2005; @jonesPoliticsArchitectureChoice2001; @jonesBehavioralRationalityFoundation2017]. Additionally to only attending to a limited number of dimensions, policy actors also view some dimensions of the issue as more salient than others. For example, assume the issue of gun violence in the US has two dimensions including the prevalence and availability of guns as well as the mental health of those that commit violent acts using guns. For some the prevalence of guns is the salient, defining dimension, but for others the mental health dimension is the important dimension. Issue definitions are the aggregate of the various dimensions weighted by the salience of each dimension [@nowlinModelingIssueDefinitions2016]. 
+
+The empirical component of policy core beliefs contain the issue definition, which is the sum of the various dimensions of the issue weighted by the salience. The salience weights given to the various dimensions are likely driven by deep core beliefs and the normative aspects of policy core beliefs. With the gun violence example the deep core beliefs of conservatism and individualism coupled with normative policy core beliefs that value the rights of gun owners would likely lead to seeing the mental health of individuals, rather then the availability of guns as the defining dimension of gun violence. Combining the normative and issue definition (e.g., empirical) components form the basis of policy core beliefs that have the belief and uncertainty elements discussed previously. 
+
+In sum, I posit that: 
+
+* Any policy issue, _A_, contains _D_$_\textit{An}$ dimensions 
+* Each dimension is weighted _D_$_\textit{An}$($\omega$) with regard to salience 
+* Issue definitions are the aggregate of various dimensions weighted by salience 
+* Policy core beliefs result from issue definitions coupled with normative considerations and the certainty associated with the belief (i.e., the certainty that the believed issue definitions is the proper one)
+
+
+# Policy Beliefs and Preferences
+
 
 At the heart of the policy learning through information processing model is belief change as a result of information. However, what distinguishes policy beliefs from policy preferences has not always been clear. 
 
-## Preference Change 
 
 
-## Behavior Change 
+{{< pagebreak >}} 
 
+## References 
 
-## Policy Change 
