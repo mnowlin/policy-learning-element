@@ -40,6 +40,56 @@ At the heart of the policy learning through information processing model is beli
 
 
 
+```{mermaid}
+%%| fig-cap: Policy Beliefs, Issue Definitions, and Preferences
+%%| label: fig-defs
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    A[Deep Core Beliefs] --> subgraph1
+    subgraph subgraph1 [<b>Policy Core Beliefs]
+    B[Normative Component] <--> C[Issue Definitions]
+    end
+    subgraph1 --> D[Policy Preferences]
+```
+
+
+
+```{mermaid}
+%%| fig-cap: Information Processing Leading to Issue Definition and Preference Updating
+%%| label: fig-updating
+%%{init: {'theme':'neutral' , "htmlLabels": true, "securityLevel": "loose",}}%%
+block-beta
+   columns 3
+   A space  B 
+   space space space
+   space space space 
+   C space  D
+
+   A["Policy Core <br> <i>Issue Defintion<sub>1</sub>"] --> B["Policy <br> Preference<sub>1</sub>"]
+   A -- "<i>Information <br> Processing" ------> C
+   C["Policy Core <br> <i>Issue Defintion<sub>2</sub>"] --> D["Policy <br> Preference<sub>2</sub>"]
+```
+
+
+
+
+# The US Public and Nuclear Energy 
+
+Fukishma ... 
+
+
+
+
+## Data 
+
+The data comes from a series of surveys ... 
+
+To best account for how policy elities might update beliefs and preferences, we use only the sample of the US that has completed college. 
+
+
+
+
+
 {{< pagebreak >}} 
 
 ## References 
