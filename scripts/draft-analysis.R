@@ -230,9 +230,19 @@ nukeData$fuk <- ifelse(nukeData$year==2012 |
                            nukeData$year==2022 |
                            nukeData$year==2023,1,0)
 
+nukeData$fuk2 <- ifelse(nukeData$year==2012 | 
+                         nukeData$year==2013 |
+                         nukeData$year==2014 |
+                         nukeData$year==2015 |
+                         nukeData$year==2016 |
+                         nukeData$year==2017 |
+                         nukeData$year==2018 |
+                         nukeData$year==2019,1,0)
 
-summary(olsRisk <- lm(nukeRisk~age+gender+white+ideology, data = subset(nukeData, college==1)))
-summary(olsBenefit <- lm(nukeBenefit~age+gender+white+ideology, data = subset(nukeData, college==1)))
+
+summary(lm1 <- lm(nukeRisk~nukeBenefit, data = nukeData))
+summary(olsRisk <- lm(nukeRisk~age+gender+white+ideology+nukeBenefit, data = subset(nukeData, college==1)))
+summary(olsBenefit <- lm(nukeBenefit~age+gender+white+ideology+nukeRisk, data = subset(nukeData, college==1)))
 
 summary(olsRiskFuk <- lm(nukeRisk~age+gender+white+ideology+fuk, data = subset(nukeData, college==1)))
 summary(olsBenefitFuk <- lm(nukeBenefit~age+gender+white+ideology+fuk, data = subset(nukeData, college==1)))
@@ -269,3 +279,49 @@ summary(olsMorePlantsPost <- lm(morePlants~nukeRisk+nukeBenefit+age+gender+white
 lm.beta(olsRiskPost)
 lm.beta(olsBenefitPost)
 lm.beta(olsMorePlantsPost)
+
+preData <- as.data.frame(subset(nukeDataC, fuk==0))
+postData <- as.data.frame(subset(nukeDataC, fuk==1))
+
+mean(preData$nrsk1, na.rm = TRUE)
+mean(postData$nrsk1, na.rm = TRUE)
+t.test(preData$nrsk1,postData$nrsk1)
+
+mean(preData$nrsk2, na.rm = TRUE)
+mean(postData$nrsk2, na.rm = TRUE)
+t.test(preData$nrsk2,postData$nrsk2)
+
+mean(preData$nrsk3, na.rm = TRUE)
+mean(postData$nrsk3, na.rm = TRUE)
+t.test(preData$nrsk3,postData$nrsk3)
+
+mean(preData$nrsk4, na.rm = TRUE)
+mean(postData$nrsk4, na.rm = TRUE)
+t.test(preData$nrsk4,postData$nrsk4)
+
+mean(preData$nukeRisk, na.rm = TRUE)
+mean(postData$nukeRisk, na.rm = TRUE)
+t.test(preData$nukeRisk,postData$nukeRisk)
+
+mean(preData$nben1, na.rm = TRUE)
+mean(postData$nben1, na.rm = TRUE)
+t.test(preData$nben1,postData$nben1)
+
+mean(preData$nben2, na.rm = TRUE)
+mean(postData$nben2, na.rm = TRUE)
+t.test(preData$nben2,postData$nben2)
+
+mean(preData$nben3, na.rm = TRUE)
+mean(postData$nben3, na.rm = TRUE)
+t.test(preData$nben3,postData$nben3)
+
+mean(preData$nben4, na.rm = TRUE)
+mean(postData$nben4, na.rm = TRUE)
+t.test(preData$nben4,postData$nben4)
+
+mean(preData$nukeBenefit, na.rm = TRUE)
+mean(postData$nukeBenefit, na.rm = TRUE)
+t.test(preData$nukeBenefit,postData$nukeBenefit)
+
+
+
