@@ -12,12 +12,18 @@ format: docx
 
 Policy learning through information processing occurs as information is processed and the beliefs of policy actors, individual or collective, are changed. The processing of information occurs as the various information signals are weighted relative to prior beliefs. Learning occurs when the posterior beliefs of policy actors shift and/or certainty shifts in the direction of the processed information. In addition, learning is embedded within a policy context where information is processing by policy actors within institutional systems and structures. Finally, the process of learning through information processing produces several possible learning products including policy belief change, policy preference change, behavior change, and policy change.   
 
-In this chapter, we further examine the role that shifting issue definitions plays as a mechanism of policy learning through information processing. Additionally, we demonstrated our framework empirically using US public opinion data about nuclear energy as well as a few case vignettes.  
+In this chapter, we further examine the role that shifting issue definitions plays as a mechanism of policy learning through information processing. 
+
+Many policy issues are inherently complex and ambiguous, which means that they have multiple attributes and those attributes can be understood, or interpreted in different ways. How issues are defined can have profound implications for policymaking with regard to that issue. Issue definitions are understood as social constructions [], policy images[], and as the result of policy beliefs []. Policy scholars have long emphasized the importance of issue definitions for policymaking, yet less work has examined connections between issue definitions and policy core beliefs. 
+
+Additionally, we demonstrated our framework empirically using US public opinion data about nuclear energy as well as a few case vignettes.  
 
 
 # Policy Beliefs and Issue Definitions 
 
-Many policy issues are inherently complex and ambiguous, which means that they have multiple attributes and those attributes can be understood, or interpreted in different ways. How issues are defined can have profound implications for policymaking with regard to that issue. Issue definitions are understood as social constructions [], policy images[], and as the result of policy beliefs []. Policy scholars have long emphasized the importance of issue definitions for policymaking, yet less work has examined connections between issue definitions and policy core beliefs. 
+The ACF posits a hierarhical, three-tiered belief system that includes deep core beliefs, policy core beliefs, and secondary beliefs. Within the belief hierarchy, beliefs move from abstract foundational beliefs -- deep core beliefs -- to beliefs specific to a policy issue or subsystem -- policy core beliefs -- to secondary beliefs, which are about specific means to achieve policy goals. Deep core beliefs inform and constrain policy core beliefs and both deep core and policy core shape secondary beliefs. Within the ACF, advocacy coalitions are identified through shared policy core beliefs. 
+
+The model of learning through information processing focus on the updating of beliefs resulting from the processing of policy relevant information. While learning as belief updating could occur for any type of belief, as belief become increasingly applicatable to multiple policy issue they become less likely to change. It rare that deep core belief such as political ideology or cultural worldviews change, whereas narrowl focused secondary beliefs are the most likely to change. Policy core beliefs are more likely to change than deep core beliefs, but less likely than secondary aspects. One way for learning to occur regarding policy core beliefs is a shift in the issue definition that undergirds policy core beliefs.  
 
 Policy core beliefs are "bound by scope and topic to the subsystem"; have normative considerations that "may reflect basic orientation and value priorities for the policy subsystem" such as "whose welfare ... is of greatest concern"; and empirical considerations that involve, "overall assessments of the seriousness of the problem, basic causes of the problem, and preferred solutions for the addressing the problem" [@jenkins-smithAdvocacyCoalitionFramework2018, 140-141]. @jenkins-smithAdvocacyCoalitionFramework2018 go on to note that the "belief system model" of the ACF "needs to be further specified" (154), and I am positing that incorporating issue definitions can further specify policy core beliefs.
 
@@ -33,7 +39,7 @@ In sum, I posit that:
 * Policy core beliefs result from issue definitions coupled with normative considerations and the certainty associated with the belief (i.e., the certainty that the believed issue definitions is the proper one)
 
 
-# Policy Beliefs and Preferences
+## Policy Beliefs and Preferences
 
 
 At the heart of the policy learning through information processing model is belief change as a result of information. However, what distinguishes policy beliefs from policy preferences has not always been clear. 
@@ -49,7 +55,8 @@ flowchart LR
     subgraph subgraph1 [<b>Policy Core Beliefs]
     B[Normative Component] <--> C[Issue Definitions]
     end
-    subgraph1 --> D[Policy Preferences]
+    subgraph1 --> D[Secondary Beliefs]
+    D --> E[Policy Preferences]
 ```
 
 
@@ -57,17 +64,17 @@ flowchart LR
 ```{mermaid}
 %%| fig-cap: Information Processing Leading to Issue Definition and Preference Updating
 %%| label: fig-updating
-%%{init: {'theme':'neutral' , "htmlLabels": true, "securityLevel": "loose",}}%%
+%%{init: {'theme':'neutral'}}%%
 block-beta
    columns 3
-   A space  B 
-   space space space
+   A space B 
    space space space 
-   C space  D
+   space space space
+   C space D
 
-   A["Policy Core <br> <i>Issue Defintion<sub>1</sub>"] --> B["Policy <br> Preference<sub>1</sub>"]
+   A["Policy Core Beliefs<br><i>Issue Definition<sub>1"] -->  B["Policy <br> Preference<sub>1</sub>"]
    A -- "<i>Information <br> Processing" ------> C
-   C["Policy Core <br> <i>Issue Defintion<sub>2</sub>"] --> D["Policy <br> Preference<sub>2</sub>"]
+   C["Policy Core Beliefs<br><i>Issue Definition<sub>2"] --> D["Policy <br> Preference<sub>2</sub>"]
 ```
 
 
@@ -80,13 +87,211 @@ Fukishma ...
 
 
 
-## Data 
+## Data and Measures
+```{r setup}
+#| include: false
+#| message: false
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+```
 
-The data comes from a series of surveys ... 
+```{r load data and packages}
+#| echo: false
+#| include: false
+#| warning: false
+
+## load packages 
+library(ggplot2)
+library(QuantPsyc)
+
+## load data 
+nukeData <- read.csv("data/nukeData.csv")
+
+## recodes 
+nukeData$nukeRisk <- round((nukeData$nrsk1+nukeData$nrsk2+nukeData$nrsk3+
+                   nukeData$nrsk4)/4,0)
+nukeData$nukeBenefit <- round((nukeData$nben1+nukeData$nben2+nukeData$nben3+
+                               nukeData$nben4)/4,0)
+nukeRiskA <- psy::cronbach(data.frame(nukeData$nrsk1,nukeData$nrsk2,nukeData$nrsk3,
+                                      nukeData$nrsk4))
+nukeBenefitA <- psy::cronbach(data.frame(nukeData$nben1,nukeData$nben2,nukeData$nben3,
+                                      nukeData$nben4))
+nukeData$fuk <- ifelse(nukeData$year==2012 | 
+                           nukeData$year==2013 |
+                           nukeData$year==2014 |
+                           nukeData$year==2015 |
+                           nukeData$year==2016 |
+                           nukeData$year==2017 |
+                           nukeData$year==2018 |
+                           nukeData$year==2019 |
+                           nukeData$year==2020 |
+                           nukeData$year==2021 |
+                           nukeData$year==2022 |
+                           nukeData$year==2023,1,0)
+
+
+nukeDataC <- subset(nukeData, college==1) # subset of college educated
+
+preData <- as.data.frame(subset(nukeDataC, fuk==0))
+postData <- as.data.frame(subset(nukeDataC, fuk==1))
+```
+
+<!-- reword the following -->
+
+To test the hypothesis, I draw on data from a decade’s worth, 2013-2023 , of nationwide surveys of US residents. As noted, public opinion serves as a sufficient proxy for elite opinion because the belief systems of the mass public and elites are structured similarly, and the dynamics of policy-oriented learning are likely similar. In each survey, respondents were asked about their views on energy and environmental issues, including nuclear energy and climate change. Additionally, the surveys gauged the deep core beliefs of respondents by including measures of cultural worldviews, political ideology, and environmental orientation. The surveys were developed and administered by the Institute for Public Policy Research and Analysis at the University of Oklahoma and fielded annually. The samples for each survey were recruited by firms including Survey Sampling International and Qualtrics, and quotas were used to ensure that the samples were representative of the US population. Overall, the combined surveys include 23842 respondents.
 
 To best account for how policy elities might update beliefs and preferences, we use only the sample of the US that has completed college. 
 
+### The Dimensions of Nuclear Energy 
 
+Risk of nuclear energy 0 (no risk) to 10 (extreme risk)   
+
+> The next set of questions focus on the possible risks and benefits of nuclear energy.
+
+> First we want to know about your beliefs concerning some of the possible risks associated with nuclear energy use in the U.S. Please consider both the likelihood of a nuclear event occurring and its potential consequences when evaluating the risk posed by each of the following on a scale from zero to ten, where zero means no risk and ten means extreme risk. [_Statements were presented in random order_]
+
+* **Plant Accident**: An event at a U.S. nuclear power plant within the next 20 years that results in the release of large amounts of radiation
+
+* **Transportation Accident**: An event during the transportation and temporary storage of spent nuclear fuel from nuclear power plants in the U.S. within the next 20 years that results in the release of large amounts of radiation 
+
+* **Terrorist Attack**: A terrorist attack at a U.S. nuclear power plant within the next 20 years that results in the release of large amounts of radiation
+
+* **Weapon**: The diversion of nuclear fuel from a nuclear power plant in the U.S. within the next 20 years for the purpose of building a nuclear weapon
+
+> Next we want to know about your beliefs concerning some of the possible benefits associated with nuclear energy use in the U.S. Please evaluate each of these possible benefits of nuclear energy use on a scale from zero to ten, where zero means not at all beneficial and ten means extremely beneficial. [_Statements were presented in random order_]  
+
+* **No GHG**: Reducing environmental threats because the generation of nuclear energy does not produce greenhouse gases that are believed to cause climate change 
+
+* **Reliable Power**: Reliable power because nuclear energy generates large amounts of electricity and is not affected by weather conditions, such as low rainfall or no wind
+
+* **Energy Indepdendence**: Greater U.S. energy independence because nuclear energy production does not require oil or gas from foreign sources
+
+* **Reduced Environmental Damage**: Reduced environmental damage because of less need for mining coal or extracting oil and gas 
+
+To measure policy preferences, we examine support for building more nuclear power plants in the US. Specifically, we averaged responses on two questions, with one question regarding support for adding additional nuclear reactors at existing nuclear power plants and adding new reactors at new locations in the US. 
+
+> Using a scale from one to seven, where one means _strongly oppose_ and seven means _strongly support_, how do you feel about constructing additional nuclear reactors at the sites of existing nuclear power plants in the U.S.?
+
+> Using the same scale from one to seven, where one means _strongly oppose_ and seven means _strongly support_, how do you feel about constructing additional nuclear power plants at new locations in the U.S.?
+
+
+```{mermaid}
+%%| fig-cap: Ideology, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants
+%%| label: fig-model
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    A[Political Ideology] --> subgraph1
+    subgraph subgraph1 [<b>Nuclear Energy Beliefs]
+    B[Benefits] <--> C[Risks]
+    end
+    subgraph1 --> D[More Nuclear Plants]
+```
+
+Secondary beliefs are implied by policy preferences 
+
+## Results 
+```{r diff of means}
+#| echo: false
+#| include: false
+#| warning: false
+
+mean(preData$nrsk1, na.rm = TRUE)
+mean(postData$nrsk1, na.rm = TRUE)
+t.test(preData$nrsk1,postData$nrsk1)
+
+mean(preData$nrsk2, na.rm = TRUE)
+mean(postData$nrsk2, na.rm = TRUE)
+t.test(preData$nrsk2,postData$nrsk2)
+
+mean(preData$nrsk3, na.rm = TRUE)
+mean(postData$nrsk3, na.rm = TRUE)
+t.test(preData$nrsk3,postData$nrsk3)
+
+mean(preData$nrsk4, na.rm = TRUE)
+mean(postData$nrsk4, na.rm = TRUE)
+t.test(preData$nrsk4,postData$nrsk4)
+
+mean(preData$nukeRisk, na.rm = TRUE)
+mean(postData$nukeRisk, na.rm = TRUE)
+t.test(preData$nukeRisk,postData$nukeRisk)
+
+mean(preData$nben1, na.rm = TRUE)
+mean(postData$nben1, na.rm = TRUE)
+t.test(preData$nben1,postData$nben1)
+
+mean(preData$nben2, na.rm = TRUE)
+mean(postData$nben2, na.rm = TRUE)
+t.test(preData$nben2,postData$nben2)
+
+mean(preData$nben3, na.rm = TRUE)
+mean(postData$nben3, na.rm = TRUE)
+t.test(preData$nben3,postData$nben3)
+
+mean(preData$nben4, na.rm = TRUE)
+mean(postData$nben4, na.rm = TRUE)
+t.test(preData$nben4,postData$nben4)
+
+mean(preData$nukeBenefit, na.rm = TRUE)
+mean(postData$nukeBenefit, na.rm = TRUE)
+t.test(preData$nukeBenefit,postData$nukeBenefit)
+
+t.test(preData$nukeBenefit,preData$nukeRisk)
+t.test(postData$nukeBenefit,postData$nukeRisk)
+```
+
+```{r models}
+#| echo: false
+#| include: false
+#| warning: false
+
+## ols models 
+summary(olsRiskFuk <- lm(nukeRisk~age+gender+white+ideology+nukeBenefit+fuk, data = subset(nukeData, college==1)))
+summary(olsBenefitFuk <- lm(nukeBenefit~age+gender+white+ideology+nukeRisk+fuk, data = subset(nukeData, college==1)))
+summary(olsMorePlantsFuk <- lm(morePlants~nukeRisk+nukeBenefit+age+gender+white+ideology+fuk, 
+                            data = subset(nukeData, college==1)))
+
+## standardized betas 
+lm.beta(olsRiskFuk)
+lm.beta(olsBenefitFuk)
+lm.beta(olsMorePlantsFuk)
+```
+
+
+| | **Issue Dimensions**        | **Pre-Fukushima**  | **Post-Fukushima**  | 
+| :----------- | :----------- | -------:| -----:| 
+| **Risks**         | Plant Accident<br> | `r round(mean(preData$nrsk1, na.rm = TRUE),2)` | `r round(mean(postData$nrsk1, na.rm = TRUE),2)`*** | 
+|                       | Transportation Accident<br> | `r round(mean(preData$nrsk2, na.rm=TRUE),2)` | `r round(mean(postData$nrsk2, na.rm=TRUE),2)`*** |  
+|                       | Terrorist Attack<br> | `r round(mean(preData$nrsk3, na.rm=TRUE),2)` | `r round(mean(postData$nrsk3, na.rm=TRUE),2)`*** | 
+|                       | Weapon<br> | `r round(mean(preData$nrsk4, na.rm=TRUE),2)` | `r round(mean(postData$nrsk4, na.rm=TRUE),2)`*** | 
+|                       | **All Items** | `r round(mean(preData$nukeRisk, na.rm=TRUE),2)` | `r round(mean(postData$nukeRisk, na.rm=TRUE),2)`*** | 
+| **Benefits**         | No GHG | `r round(mean(preData$nben1, na.rm=TRUE),2)` | `r round(mean(postData$nben1, na.rm = TRUE),2)`*** | 
+|                       | Reliable Power<br> | `r round(mean(preData$nben2, na.rm=TRUE),2)` | `r round(mean(postData$nben2, na.rm = TRUE),2)`** | 
+|                        | Energy Indepdendence<br> | `r round(mean(preData$nben3, na.rm=TRUE),2)` | `r round(mean(postData$nben3, na.rm = TRUE),2)`*** | 
+|                        | Reduced Environmental Damage<br> | `r round(mean(preData$nben4, na.rm=TRUE),2)` | `r round(mean(postData$nben4, na.rm=TRUE),2)` |
+|                        | **All Items** | `r round(mean(preData$nukeBenefit, na.rm=TRUE),2)` | `r round(mean(postData$nukeBenefit, na.rm=TRUE),3)`*** |
+
+: Comparasion of Nuclear Energy Issue Dimensions Pre-and-Post-Fukushima {#tbl-dims}
+
+
+Differences between the average of all risk and benefit items was statistically significant both pre and post Fukushima, with average of all benefit dimensions signifigantly higher than the average of all risk items. However, the differences in means were smaller post-Fukushima.  
+
+
+
+```{mermaid}
+%%| fig-cap: Ideology, Fukushima, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants Results
+%%| label: fig-results
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    A[Political Ideology <br> <i> more conservative] --"0.034***" ---> B
+    A[Political Ideology <br> <i> more conservative] --"-0.139***" ---> C
+    A[Political Ideology <br> <i> more conservative] --"0.124***" --> D
+    B[Benefits] --"0.020*" ---> C[Risks]
+    C --"0.021*"---> B
+    E[Fukushima] --"-0.033***"--> B
+    E[Fukushima] --"0.078***"--> C
+    B --"0.432***"--> D[More Nuclear Plants]
+    C --"-0.308***"---> D[More Nuclear Plants]
+    E[Fukushima] --"-0.036***"-----> D
+```
 
 
 
