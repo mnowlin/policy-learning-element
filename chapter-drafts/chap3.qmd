@@ -301,7 +301,11 @@ We first examine differences in means of the dimensions of nuclear energy -- the
 
 As shown in @tbl-dims, other than reduced environmental damage, all of the dimensions were significantly different post-Fukushima as well as the averages of the risk and benefit items. The mean of each risk measure increased and the mean of each benefit measure decreased following Fukushima. Also of note is that the average of the benfit measures had a significantly higher mean than the average of the risk measures both pre-and-post Fukushima. Pre-Fukushima the average of the risk measures was `r round(mean(preData$nukeRisk, na.rm = TRUE),3)` and the average of the benefit measures was `r round(mean(preData$nukeBenefit, na.rm = TRUE),3)`, and the difference was statistically significant [_t_=`r round(t.test(preData$nukeRisk,preData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. Following Fukushima, the mean of the risk measures was `r round(mean(postData$nukeRisk, na.rm = TRUE),3)`, the mean of the benefit measures was `r round(mean(postData$nukeBenefit, na.rm = TRUE),3)`, and the difference was significant [_t_=`r round(t.test(postData$nukeRisk,postData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. 
 
-Next, we do a path analysis to show the influence of increasing conservatism, Fukushima, and beliefs about the risks and benefits of nuclear energy on preferences for more nuclear power plants. The results are shown in @fig-results. 
+Next, we do a path analysis to show the influence of , Fukushima, and beliefs about the risks and benefits of nuclear energy on preferences for more nuclear power plants.^[For the path analysis we perform an OLS regression and then use the standardized coefficients.] Path analysis includes the standardized coefficients allow us to compare the impact of the various independent variables on the dependent variable. In addition, path analysis accounts for the effects of political ideology on preferences for more nuclear power plants (_direct effects_), the mediation effect of political ideology operating through issue definition (_indirect effects_), and the combined effects of political ideology and the issue definition of nuclear energy on  (_total effects_). The indirect effect is calculated by multiplying the path (a) from political ideology to the issue definition and the path (b) from issue definition to support for more plants.
+
+Note that political ideology is the one to seven scale, with 1 = strongly liberal, 4 = middle of the road, and 7 = strongly conservative, therefore the political ideology measure of increasing conservatism. Additionally, we use the aggregate measure of the risks and benefits of nuclear energy. We also use a dummy variable to represent the Fukushima accident with responses gathered from 2006 to 2011 coded as 0 and responses from 2012 to 2023 coded as a 1. Finally, the more nuclear power plants measure is the 1 to 7 measure of support for building more nuclear power plants.  
+
+@fig-results shows the results of the path analysis, including the standardized betas. 
 
 
 ```{mermaid}
@@ -321,6 +325,19 @@ flowchart LR
     E[Fukushima] --"-0.036***"-----> D
 ```
 
+
+As shown in @fig-results, increasing conservatism is associated with an increase in the perceived benefits of nuclear energy as well as a decrease in the perceived risks associated with nuclear energy. Additionally, the Fu 
+
+
+|  | Indirect Effect | Direct Effect | Total Effect | 
+| :-------- | --- | --- | --- | 
+| Egalitarianism and CNS | 0.118** | 0.189* | 0.307*** | 
+| Communitarianism and CNS | 0.078* | 0.033 | 0.111+ | 
+| Egalitarianism and NEP | 0.175** | 0.136 | 0.310*** |
+
+: Mediation Analysis of Political Ideology, Risks and Benefits of Nuclear Energy, and Support for More Nuclear Plants {#tbl-med}
+
++ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001 
 
 
 {{< pagebreak >}} 
