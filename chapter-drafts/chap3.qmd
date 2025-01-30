@@ -86,7 +86,7 @@ block-beta
 
 # The US Public and Nuclear Energy 
 
-Fukishma ... 
+
 
 
 
@@ -189,6 +189,8 @@ To measure policy preferences, we examine support for building more nuclear powe
 
 > Using the same scale from one to seven, where one means _strongly oppose_ and seven means _strongly support_, how do you feel about constructing additional nuclear power plants at new locations in the U.S.?
 
+For analysis, we combine and average the two scale into a single one to seven measure of support for more nuclear energy plants. The average support for more nuclear plants is `r round(mean(nukeDataC$morePlants, na.rm = TRUE),3)`. 
+
 ### Deep Core Beliefs 
 
 For deep core beliefs, we use a measure of self-reported ideology. Specifically, respondents were asked, "On a scale of political ideology, individuals can be arranged from strongly liberal to strongly conservative. Which of the following categories best describes your views?", with 1 indicating strongly liberal, 4 = middle of the road, and 7 = strongly conservative. The mean on the political ideology scale is `r round(mean(nukeDataC$ideology, na.rm = TRUE),3)`, which is middle of the road.  
@@ -211,9 +213,13 @@ flowchart LR
 
 As shown, information is processed relative to political ideology (i.e., deep core beliefs), and as a result the issue of definition of nuclear energy (i.e., policy core beliefs) is potentially updated. A similar dynamic exists between policy core beliefs and policy preferences. Information processing occurs along the chain of deep core beliefs $\rightarrow$ policy core beliefs $\rightarrow$ policy preferences, and updating occurs when the information signal is sufficiently strong relative to the prior belief or preference. Learning happens if the beliefs or the certainty associated with the beliefs change. 
 
+Fukushima provides a potentially strong information signal about the risks of nuclear energy 
+
+
 To estimate the model shown in @fig-model ... 
 
-Fukushima provides a potentially strong information signal about the risks of nuclear energy 
+using the 1 to 7 support of support for building more nuclear power plants. The political ideology measure is the 1 to 7 scale, with 1 = strongly liberal, 4 = middle of the road, and 7 = strongly conservative, therefore the political ideology measure of increasing conservatism. Additionally, we use the aggregate measure of the risks and benefits of nuclear energy. We also use a dummy variable to represent the Fukushima accident with responses gathered from 2006 to 2011 coded as 0 and responses from 2012 to 2023 coded as a 1. Finally,   
+
 
 ## Results 
 ```{r diff of means}
@@ -284,7 +290,7 @@ lm.beta(olsMorePlantsFuk)
 
 We first examine differences in means of the dimensions of nuclear energy -- the measure of risks and benefits -- pre-and-post the Fukushima accident. The pre-Fukushima measures includes pooled survey data from 2006 to 2011, and post-Fukushima is pooled survey data from 2012 to 2023. Additionally, we combined and averaged the risk and benefits items into single scales. The Cronbach's $\alpha$ for the risk items was `r round(nukeRiskA$alpha,3)` and the $\alpha$ for the benefit items was `r round(nukeBenefitA$alpha,3)`. @tbl-dims shows the pre-and-post Fukushima means for each dimension and well as for the averaged items.  
 
-| | **Issue Dimensions**        | **Pre-Fukushima**  | **Post-Fukushima**  | 
+| | **Issue Dimensions**        | **Pre-Fukushima Mean**  | **Post-Fukushima Mean**  | 
 | :----------- | :----------- | -------:| -----:| 
 | **Risks (0 to 10 scale)**         | Plant Accident<br> | `r round(mean(preData$nrsk1, na.rm = TRUE),2)` | `r round(mean(postData$nrsk1, na.rm = TRUE),2)`*** | 
 |                       | Transportation Accident<br> | `r round(mean(preData$nrsk2, na.rm=TRUE),2)` | `r round(mean(postData$nrsk2, na.rm=TRUE),2)`*** |  
@@ -299,11 +305,39 @@ We first examine differences in means of the dimensions of nuclear energy -- the
 
 : Comparison of Nuclear Energy Issue Dimensions Pre-and-Post-Fukushima {#tbl-dims}
 
-As shown in @tbl-dims, other than reduced environmental damage, all of the dimensions were significantly different post-Fukushima as well as the averages of the risk and benefit items. The mean of each risk measure increased and the mean of each benefit measure decreased following Fukushima. Also of note is that the average of the benfit measures had a significantly higher mean than the average of the risk measures both pre-and-post Fukushima. Pre-Fukushima the average of the risk measures was `r round(mean(preData$nukeRisk, na.rm = TRUE),3)` and the average of the benefit measures was `r round(mean(preData$nukeBenefit, na.rm = TRUE),3)`, and the difference was statistically significant [_t_=`r round(t.test(preData$nukeRisk,preData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. Following Fukushima, the mean of the risk measures was `r round(mean(postData$nukeRisk, na.rm = TRUE),3)`, the mean of the benefit measures was `r round(mean(postData$nukeBenefit, na.rm = TRUE),3)`, and the difference was significant [_t_=`r round(t.test(postData$nukeRisk,postData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. 
+As shown in @tbl-dims, other than reduced environmental damage, all of the dimensions were significantly different post-Fukushima as well as the averages of the risk and benefit items. The mean of each risk measure increased and the mean of each benefit measure decreased following Fukushima. Also of note is that the average of the benefit measures had a significantly higher mean than the average of the risk measures both pre-and-post Fukushima. Pre-Fukushima the average of the risk measures was `r round(mean(preData$nukeRisk, na.rm = TRUE),3)` and the average of the benefit measures was `r round(mean(preData$nukeBenefit, na.rm = TRUE),3)`, and the difference was statistically significant [_t_=`r round(t.test(preData$nukeRisk,preData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. Following Fukushima, the mean of the risk measures was `r round(mean(postData$nukeRisk, na.rm = TRUE),3)`, the mean of the benefit measures was `r round(mean(postData$nukeBenefit, na.rm = TRUE),3)`, and the difference was significant [_t_=`r round(t.test(postData$nukeRisk,postData$nukeBenefit)$statistic[["t"]],2)`, _p_<0.001]. 
 
-Next, we do a path analysis to show the influence of , Fukushima, and beliefs about the risks and benefits of nuclear energy on preferences for more nuclear power plants.^[For the path analysis we perform an OLS regression and then use the standardized coefficients.] Path analysis includes the standardized coefficients allow us to compare the impact of the various independent variables on the dependent variable. In addition, path analysis accounts for the effects of political ideology on preferences for more nuclear power plants (_direct effects_), the mediation effect of political ideology operating through issue definition (_indirect effects_), and the combined effects of political ideology and the issue definition of nuclear energy on  (_total effects_). The indirect effect is calculated by multiplying the path (a) from political ideology to the issue definition and the path (b) from issue definition to support for more plants.
+Next, we do an OLS regression to examine the influence of the political ideology and the Fukushima accident on the issue definition of nuclear energy, specifically the perceived risks and benefits. Then, we explore the impacts of ideology, Fukushima, and the risk and benefits of nuclear energy on support for more nuclear power. Note that we also control for demographics, including age, gender (white=1), and race (white=1). The results are shown in @tbl-results. 
 
-Note that political ideology is the one to seven scale, with 1 = strongly liberal, 4 = middle of the road, and 7 = strongly conservative, therefore the political ideology measure of increasing conservatism. Additionally, we use the aggregate measure of the risks and benefits of nuclear energy. We also use a dummy variable to represent the Fukushima accident with responses gathered from 2006 to 2011 coded as 0 and responses from 2012 to 2023 coded as a 1. Finally, the more nuclear power plants measure is the 1 to 7 measure of support for building more nuclear power plants.  
+```{r OLS table}
+#| echo: false
+#| warning: false
+#| label: tbl-results
+#| tbl-cap: OLS Analysis of Political Ideology, Fukushima, Nuclear Energy Risks and Benefits, and Support for More Plants 
+
+library("tidyverse")
+library("modelsummary")
+
+gm <- tibble::tribble(
+  ~raw,        ~clean,          ~fmt,
+  "nobs",      "N",             0,
+  "r.squared", "R<sup>2</sup>", 2)
+cm <- c("ideology" = "Ideology (more conservative)",
+        "fuk" = "Fukushima",
+        "nukeBenefit" = "Benefits", 
+        "nukeRisk" = "Risks",
+        "age" = "Age",
+        "gender" = "Gender (male=1)",
+        "white"= "Race (white=1)")
+
+modelsTotal <- list("Risks"=olsRiskFuk, "Benefits"=olsBenefitFuk, "More Plants"=olsMorePlantsFuk)
+modelsummary(modelsTotal, stars = TRUE, coef_map = cm, gof_map = gm)
+```
+
+As can be seen in @tbl-results, increasing conservatism is associated with decreased risk perceptions and increased perceptions of benefits and support for more nuclear plants. In addition, perceptions of risks increased and perceptions of benefits and support for more plants both decreased following the Fukushima accident. Interestingly, the benefits and risks of nuclear energy are positively associated. But, as expected an increase in the perceived risks is negatively associated with support for more plants, whereas an increase in perceived benefits is positively associated. For the demographic variables, age is negatively associated with both perceived risks and support for more plants. Finally, both males and whites perceive less risk, more benefits, and have higher level of support for more nuclear power plants compared to non-males and non-whites.  
+
+
+We next do a path analysis to show the influence of political ideology, Fukushima, and beliefs about the risks and benefits of nuclear energy on preferences for more nuclear power plants.^[For the path analysis we perform an OLS regression and then use the standardized coefficients.] Path analysis includes the standardized coefficients allow us to compare the impact of the various independent variables on the dependent variable. In addition, path analysis accounts for the effects of political ideology on preferences for more nuclear power plants (_direct effects_), the mediation effect of political ideology operating through the issue definition (_indirect effects_), and the combined effects of political ideology and the issue definition of nuclear energy on support for more nuclear plants (_total effects_). The indirect effect is calculated by multiplying the path (a) from political ideology to the issue definition and the path (b) from issue definition to support for more plants.
 
 @fig-results shows the results of the path analysis, including the standardized betas. 
 
@@ -313,11 +347,9 @@ Note that political ideology is the one to seven scale, with 1 = strongly libera
 %%| label: fig-results
 %%{init: {'theme':'neutral'}}%%
 flowchart LR
-    A[Political Ideology <br> <i> more conservative] --"0.034***" ---> B
-    A[Political Ideology <br> <i> more conservative] --"-0.139***" ---> C
+    A[Political Ideology <br> <i> more conservative] --"0.034***" ---> B[Benefits]
+    A[Political Ideology <br> <i> more conservative] --"-0.139***" ---> C[Risks]
     A[Political Ideology <br> <i> more conservative] --"0.124***" --> D
-    B[Benefits] --"0.020*" ---> C[Risks]
-    C --"0.021*"---> B
     E[Fukushima] --"-0.033***"--> B
     E[Fukushima] --"0.078***"--> C
     B --"0.432***"--> D[More Nuclear Plants]
@@ -330,12 +362,13 @@ As shown in @fig-results, increasing conservatism is associated with an increase
 
 
 |  | Indirect Effect | Direct Effect | Total Effect | 
-| :-------- | --- | --- | --- | 
-| Egalitarianism and CNS | 0.118** | 0.189* | 0.307*** | 
-| Communitarianism and CNS | 0.078* | 0.033 | 0.111+ | 
-| Egalitarianism and NEP | 0.175** | 0.136 | 0.310*** |
+| :-------- | ---: | ---: | ---: | 
+| Increasing Conservatism and Nuclear Risks | 0.118** | 0.189* | 0.307*** | 
+| Increasing Conservatism and Nuclear Benefits | 0.078* | 0.033 | 0.111+ | 
+| Fukushima and Nuclear Risks | 0.078* | 0.033 | 0.111+ | 
+| Fukushima Conservatism and Nuclear Benefits | 0.078* | 0.033 | 0.111+ | 
 
-: Mediation Analysis of Political Ideology, Risks and Benefits of Nuclear Energy, and Support for More Nuclear Plants {#tbl-med}
+: Mediation Analysis of Political Ideology, Fukushima, Risks and Benefits of Nuclear Energy, and Support for More Nuclear Plants {#tbl-med}
 
 + p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001 
 
