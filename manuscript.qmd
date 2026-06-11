@@ -1,0 +1,41 @@
+---
+title: "Policy Learning and Information Processing Dynamics"
+subtitle: "Combined manuscript"
+number-sections: true
+format:
+  docx: default
+  pdf: default
+---
+
+```{=html}
+<!--
+Single-file assembly of the whole book for handing a coauthor ONE Word (or
+PDF) document to read/comment on. It is NOT part of the book (`manuscript.qmd`
+is intentionally absent from _quarto.yml's `chapters:` list, so `quarto render`
+ignores it).
+
+  Render with:  quarto render manuscript.qmd --to docx
+                quarto render manuscript.qmd --to pdf
+
+Each `{{< include >}}` splices in the live chapter source, so R chunks execute
+and citations/cross-references resolve across the whole book. Bibliography and
+CSL are inherited from _quarto.yml. Edit chapters in the chap*.qmd files, not
+here — this file just assembles them.
+-->
+```
+
+{{< include index.qmd >}}
+
+{{< include chap1.qmd >}}
+
+{{< include chap2.qmd >}}
+
+{{< include chap3.qmd >}}
+
+{{< include chap4.qmd >}}
+
+{{< include chap5.qmd >}}
+
+{{< include chap6.qmd >}}
+
+{{< include references.qmd >}}

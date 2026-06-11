@@ -1,0 +1,7 @@
+# abstract
+
+Policy learning has long been heralded as one of the most versatile and widely recognized approaches to policy analysis, so much so that it is often viewed as an ontology of the policy process. However, its theoretical and analytical fineness notwithstanding, research offering a systematic approach to tracing the micro-foundations of policy learning remains rather embryonic. In this element, we begin with mapping the sprawling theoretical, conceptual, and analytical
+landscape of policy learning research. Leveraging this review, we develop a model of policy-embedded learning and information processing. Taking a Bayesian information processing perspective, this model enables analyses of how dynamics of attention, selection, and the interpretation of information and their interaction with existing belief structures influence learning outcomes. We then apply this model using public opinion survey data from the United States on
+the use of nuclear energy within the context of the Fukushima nuclear reactor incident. We conclude with potential avenues for future research, particularly focused on theoretically and analytically scaling up this model of policy-embedded learning and information process.
+
+**Keywords**: Policy learning; Information Processing; Policy-embedded learning; Public Policy

@@ -1,0 +1,20 @@
+# Quarto build output
+/_book/
+/.quarto/
+*_files/
+*.knit.md
+*.quarto_ipynb
+index.log
+
+# Combined manuscript is regenerable from manuscript.qmd (quarto render)
+/manuscript.docx
+
+# RStudio / R session
+.Rproj.user
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# macOS
+.DS_Store
