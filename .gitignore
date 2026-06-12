@@ -18,3 +18,5 @@ index.log
 
 # macOS
 .DS_Store
+
+**/*.quarto_ipynb
