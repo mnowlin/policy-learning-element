@@ -255,7 +255,7 @@ Next, we examine differences in means of the dimensions of nuclear energy -- the
 |  | Reduced Environmental Damage<br> | `r round(mean(preData$nben4, na.rm=TRUE),2)` | `r round(mean(postData$nben4, na.rm=TRUE),2)` | `r round(mean(postData$nben4, na.rm=TRUE),2)-round(mean(preData$nben4, na.rm=TRUE),2)` |
 |  | **All Items** | `r round(mean(preData$nukeBenefit, na.rm=TRUE),2)` | `r round(mean(postData$nukeBenefit, na.rm=TRUE),2)` | `r round(mean(postData$nukeBenefit, na.rm=TRUE),2)-round(mean(preData$nukeBenefit, na.rm=TRUE),2)`\* |
 
-: Comparison of Nuclear Energy Issue Dimensions Pre-and-Post-Fukushima
+: Comparison of Nuclear Energy Issue Dimensions Pre-and-Post-Fukushima {#tbl-dims}
 
 *Note:* \* p\<0.05; \*\* p\<0.01; \*\*\* p\<0.001
 
@@ -334,7 +334,7 @@ Using the standardized coefficients shown in @fig-results, we can calculate the 
 | Fukushima and Nuclear Risks | `r round(lm.beta(olsRiskFuk)[6]*lm.beta(olsMorePlantsFuk)[1],3)` | `r round(lm.beta(olsMorePlantsFuk)[7],3)` | `r round(lm.beta(olsRiskFuk)[6]*lm.beta(olsMorePlantsFuk)[1],3) + round(lm.beta(olsMorePlantsFuk)[7],3)` |
 | Fukushima and Nuclear Benefits | `r round(lm.beta(olsBenefitFuk)[6]*lm.beta(olsMorePlantsFuk)[2],3)` | `r round(lm.beta(olsMorePlantsFuk)[7],3)` | `r round(lm.beta(olsBenefitFuk)[6]*lm.beta(olsMorePlantsFuk)[2],3) + round(lm.beta(olsMorePlantsFuk)[7],3)` |
 
-: The Effects of Political Ideology, Fukushima, and the Risks and Benefits of Nuclear Energy on Support for More Nuclear Plants
+: The Effects of Political Ideology, Fukushima, and the Risks and Benefits of Nuclear Energy on Support for More Nuclear Plants {#tbl-med}
 
 As shown in @tbl-med, deep core beliefs had larger total effects on support for more nuclear power plants than the Fukushima accident. These results illustrate the influence of deep core beliefs on policy preferences, even when learning occurs regarding policy core beliefs.
 

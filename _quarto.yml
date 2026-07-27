@@ -15,7 +15,7 @@ book:
     - chap6.qmd 
     - references.qmd
 
-bibliography: /Users/matthewnowlin/Library/CloudStorage/OneDrive-UTArlington/01-RESEARCH/Manuscript-Files/refs.bib
+bibliography: references.bib
 csl: /Users/matthewnowlin/Library/CloudStorage/OneDrive-UTArlington/01-RESEARCH/Manuscript-Files/csl/apa-7th.csl
 link-bibliography: false
 fig-cap-location: top
