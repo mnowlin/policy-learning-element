@@ -2,31 +2,31 @@
 
 ## Introduction
 
-At the most fundamental level, information constitutes the fuel of individual and collective behavior related to policymaking. Hence, recent policy process scholarship has sought to combine belief-oriented policy learning with insights about policy relevant information and information processing [@nowlinPolicyBeliefsBelief2024; @nowlinPolicyLearningInformation2021]. However, the broader policy learning literature has had an inherent and essential focus on information which has enabled policy learning scholarship to generate meaningful insights into policymaking processes by demonstrating why, when, and how policy actors engage with information to learn about policy problems [@zakiPolicyLearningGovernance2024; @kamkhajiPolicyLearningEuro2022; @zakiSystematicReviewPolicy2022]. 
+At the most fundamental level, information constitutes the fuel of individual and collective behavior related to policymaking. Hence, recent policy process scholarship has sought to combine belief-oriented policy learning with insights about policy relevant information and information processing [@nowlinPolicyBeliefsBelief2024; @nowlinPolicyLearningInformation2021]. However, the broader policy learning literature has long focused on information, generating insights into why, when, and how policy actors engage with information to learn about policy problems [@zakiPolicyLearningGovernance2024; @kamkhajiPolicyLearningEuro2022; @zakiSystematicReviewPolicy2022]. 
 
-Broadly speaking, the policy learning literature engages with the role of information and knowledge in learning; however, this is predominantly done at the meso- and macro-levels. For example, at the meso-level, there is a longstanding literature exploring the role of information and knowledge in public organizations’ learning processes [@arnoldPolicyLearningScience2014; @leePolicyLearningCrisis2020; @jenkins-smithAnalyticalDebatesPolicy1988], advisory groups and different sub-organizational units [@candelPatternsCoordinationEuropean2023; @mavrotTaskforcesCureAll2024; @nairHowGovernmentsLearn2024; @zakiShoppingScientificMarketplace2021], and within and across advocacy coalitions operating in policy subsystems [@jenkins-smithDynamicsPolicyOrientedLearning1993; @sabatierPolicyChangeLearning1993; @nohrstedtAdvocacyCoalitionFramework2023]. Similarly, there is substantive research on the role of information and knowledge at the macro and systemic levels, which involves looking at governance systems and societal changes induced by the introduction of new information and knowledge, whether through instrumental, reflexive, or social learning [@challiesGovernanceChangeGovernance2017; @hallPolicyParadigmsSocial1993; @hecloModernSocialPolitics1974; @zakiPolicyLearningEvidence2024]. These contributions have helped develop nuanced theoretical understandings of the role of information and knowledge in policy learning and policy change. However, on the micro-foundational level, research remains somewhat limited overall. Here, we find remarkable yet sparse contributions, mainly focusing on exploring the influence of reasoning paradigms and heuristics on learning [@beachPresentRoleAnalogical2021; @malkamakiAcousticsPolicyLearning2021; @wagnerCanPolicyForums2020]. Hence, a granular microfoundational understanding of how information is processed during the learning process, leading to cognitive and behavioral outcomes, remains scarcely theorized. This limits our ability to coherently analyze how learning occurs at the individual level and aggregates to the collective level, and then trace how this learning ties into and drives varieties of change.
+Broadly speaking, the policy learning literature engages with the role of information and knowledge in learning; however, this is predominantly done at the meso- and macro-levels. For example, at the meso-level, there is a longstanding literature exploring the role of information and knowledge in public organizations’ learning processes [@arnoldPolicyLearningScience2014; @leePolicyLearningCrisis2020; @jenkins-smithAnalyticalDebatesPolicy1988], advisory groups and different sub-organizational units [@candelPatternsCoordinationEuropean2023; @mavrotTaskforcesCureAll2024; @nairHowGovernmentsLearn2024; @zakiShoppingScientificMarketplace2021], and within and across advocacy coalitions operating in policy subsystems [@jenkins-smithDynamicsPolicyOrientedLearning1993; @sabatierPolicyChangeLearning1993; @nohrstedtAdvocacyCoalitionFramework2023]. Similarly, there is substantive research on the role of information and knowledge at the macro and systemic levels, which involves looking at governance systems and societal changes induced by the introduction of new information and knowledge, whether through instrumental, reflexive, or social learning [@challiesGovernanceChangeGovernance2017; @hallPolicyParadigmsSocial1993; @hecloModernSocialPolitics1974; @zakiPolicyLearningEvidence2024]. These contributions have helped develop nuanced theoretical understandings of the role of information and knowledge in policy learning and policy change. However, on the micro-foundational level, research remains somewhat limited overall. Here, we find remarkable yet sparse contributions, mainly focusing on exploring the influence of reasoning paradigms and heuristics on learning [@beachPresentRoleAnalogical2021; @malkamakiAcousticsPolicyLearning2021; @wagnerCanPolicyForums2020]. Hence, a detailed microfoundational understanding of how information is processed during the learning process, leading to cognitive and behavioral outcomes, remains underdeveloped. This limits our ability to coherently analyze how learning occurs at the individual level and aggregates to the collective level, and then trace how this learning ties into and drives varieties of change.
 
-Thus far in this element, we have developed a model of how policy actors can learn through information processing and applied the model to the case of nuclear energy beliefs. Specifically, Chapters 2 and 3, illustrated that the learning through information processing model accounts for beliefs and their distributions, information processing as the weighing of information signals, and the subsequent changes (or stability) in beliefs and their distributions as a result of information and information processing. The model is based in a microfoundational understanding of learning as a result of information and information processing, therefore the model can fill in some of the research gap regarding learning at the individual level. Yet, the model needs to be integrated into the broader policymaking system so that the process of learning to policy change can be effectively traced.
+Thus far in this element, we have developed a model of how policy actors can learn through information processing and applied the model to the case of nuclear energy beliefs. Specifically, Chapters 2 and 3 showed that the model accounts for beliefs and their distributions, information processing as the weighing of information signals, and the resulting changes, or stability, in those beliefs. The model is based in a microfoundational understanding of learning as a result of information and information processing, therefore the model can fill in some of the research gap regarding learning at the individual level. Yet, the model needs to be integrated into the broader policymaking system so that the process of learning to policy change can be effectively traced.
 
-In this chapter, we bring together the work on information and information processing in the policy process with recent work on policy-embedded learning that sought to provide a generalized framework for policy learning by synthesizing various approaches [@zakiSystematicReviewPolicy2022; @nowlinPolicyLearningBelief2026]. This allows us to develop a systematic and theoretically coherent approach to understanding the role of information and information processing in policy learning that builds on the micro-level model and takes a systemic approach to learning and policy change. By connecting the model to systemic policymaking structures that shape information processing and learning we can shed light on how individual-level learning connects to collective learning, behavior, and policy change. Additionally, we continue the empirical focus on the Fukushima accident by briefly discussing how various countries responded to the incident using the framework discussed in this chapter. In the next section, we establish a conceptual backdrop for an information-processing approach to learning. Then, we discuss information and information processing. 
+In this chapter, we bring together the work on information and information processing in the policy process with recent work on policy-embedded learning that sought to provide a generalized framework for policy learning by synthesizing various approaches [@zakiSystematicReviewPolicy2022; @nowlinPolicyLearningBelief2026]. This allows us to build a systematic approach to understanding information processing in policy learning, one that builds on the micro-level model while taking a systemic view of learning and policy change. By connecting the model to systemic policymaking structures that shape information processing and learning we can shed light on how individual-level learning connects to collective learning, behavior, and policy change. Additionally, we continue the empirical focus on the Fukushima accident by briefly discussing how various countries responded to the incident using the framework discussed in this chapter. In the next section, we establish a conceptual backdrop for an information-processing approach to learning. Then, we discuss information and information processing. 
 
 ## Policy-Embedded Learning: A Conceptual Backdrop for an Information-Processing Approach
 
 Policy learning has often been considered a puzzling and analytically elusive phenomenon. Hence, as will be discussed in more depth in Chapter 5, different conceptual approaches to viewing or unpacking learning have been developed. While these approaches successfully capture a wide range of perspectives on learning, in many cases they do not offer the precise conceptual dimensions that enable robust, systematic analyses. Along with the fundamentally elusive nature of learning and its normative appeal as a concept, this led to learning research being labelled as a conceptual minefield, an overly crowded landscape with a dizzying array of definitions, or even as a metaphor rather than a coherent analytical lens [see @borrasPolicyLearningOrganizational2011; @goyalFrameworkMetaphorAnalysing2019; @levyLearningForeignPolicy1994].
 
-The first step to building a coherent theoretical or analytically viable approach to analyzing learning is to start from a clear conceptual foundation, with coherent assumptions that drive our analytical approach [@zakiMeasuringPolicyLearning2024]. With a focus on the information processing perspective on learning, we draw on the conceptualization of *policy-embedded learning*, where learning is central to policymaking and is embedded within the broader policymaking context. Information is key in this approach, and learning can be understood as "The circulation and consumption of policy issue-related information and knowledge among policy actors embedded within a policy system within multilevel structures in a certain policymaking context" [@zakiSystematicReviewPolicy2022 22].
+The first step to building a coherent, analytically useful approach to studying learning is to start from a clear conceptual foundation with consistent assumptions [@zakiMeasuringPolicyLearning2024]. With a focus on the information processing perspective on learning, we draw on the conceptualization of *policy-embedded learning*, where learning is central to policymaking and is embedded within the broader policymaking context. Information is key in this approach, and learning can be understood as "The circulation and consumption of policy issue-related information and knowledge among policy actors embedded within a policy system within multilevel structures in a certain policymaking context" [@zakiSystematicReviewPolicy2022 22].
 
 Any systemic approach that centers learning as a driver of policy processes must account for several key elements of policymaking, including actors making choices and interacting in many venues; institutions; networks or subsystems; ideas or beliefs; policy contexts; and events [@cairneyHowShouldWe2023, 293-294]. @fig-pel illustrates the policy-embedded learning framework and the various policymaking elements it features. Of note, the learning through information processing model is actor-centered, yet policy actors engage within and across various governance systems and networks, within and across various information environments, and all within a policy context. Below, we expand on the framework.
 
 ![Policy-Embedded Learning](pel.png){#fig-pel}
 
-The policy-embedded framework to learning was developed to address some of the field’s key conceptual and analytical challenges by providing a background conceptualization of the policy learning process that comports with (and supplements) existing approaches. This is done by serving three key purposes. First, identifying key fundamental and omnipresent analytical dimensions valid across different conceptual and field-specific approaches to learning, including policy actors, information and knowledge, systemic and cognitive structures, and policymaking contexts. With these dimensions in place, policy-embedded learning can also provide microfoundational understandings compatible with the several conceptual approaches to learning. For example, this approach works well with paradigmatic learning, which involves policy actors learning to improve policy approaches and outcomes. Additionally, the policy-embedded learning framework can also account for outcome-oriented perspectives, as the interaction of policy actors can lead to multiple learning outcomes. Finally, taking an ideational approach, policy-embedded learning matches well with the diffusion of ideas and information signals across jurisdictions and their interaction within the various systems and structures where policymaking occurs.
+The policy-embedded framework to learning was developed to address some of the field’s key conceptual and analytical challenges by providing a background understanding of the policy learning process that is consistent with, and adds to, existing approaches. This is done by serving three key purposes. First, identifying core analytical dimensions common across different conceptual and field-specific approaches to learning, including policy actors, information and knowledge, systemic and cognitive structures, and policymaking contexts. With these dimensions in place, policy-embedded learning can also provide microfoundational understandings compatible with the several conceptual approaches to learning. For example, this approach works well with paradigmatic learning, which involves policy actors learning to improve policy approaches and outcomes. Additionally, the policy-embedded learning framework can also account for outcome-oriented perspectives, as the interaction of policy actors can lead to multiple learning outcomes. Finally, taking an ideational approach, policy-embedded learning matches well with the diffusion of ideas and information signals across jurisdictions and their interaction within the various systems and structures where policymaking occurs.
 
 Second, these fundamental dimensions also apply to different analytical levels, including micro, meso, and macro. Micro-level learning occurs at the level of individual policy actors, meso-level learning occurs within and across collectives, while macro-level learning takes place across an entire system. Thus, by tracing the role of information and knowledge therein, policy-embedded learning helps trace learning across multiple levels, leading to particular outcomes, especially through drawing on existing scholarship that outlines the mechanisms of learning aggregation within and across levels [see @dunlopLearningBathTubMicro2017; @heikkilaBuildingConceptualApproach2013].
 
-Third, it provides the ability to bridge the gap between learning as a cognitive process, such as in our learning an information processing model, with the broader context of policymaking. With a cognitive approach, learning is understood in terms of the impact of experience on behavior or as materializing as enduring changes in the mechanisms of behavior [@lachmanLearningProcessImproved1997; @ormrodHumanLearning2019]. One fundamental issue with cognitive approaches is not having the ability to analytically separate the learning process from its outcomes, mainly due to the inherently obscured causal pathways between experience, behavioral change, and learning on the one hand, and the latencies between cues and perceived outcomes on the other [@dehouwerWhatLearningNature2013; @dehouwerWhyCognitiveApproach2011]. These issues are exacerbated when the same approach is ported to a messy, politicized context such as policymaking [@zakiSystematicReviewPolicy2022].
+Third, it provides the ability to bridge the gap between learning as a cognitive process, such as in our learning an information processing model, with the broader context of policymaking. With a cognitive approach, learning is understood in terms of the impact of experience on behavior or as materializing as enduring changes in the mechanisms of behavior [@lachmanLearningProcessImproved1997; @ormrodHumanLearning2019]. One fundamental problem with cognitive approaches is that they cannot easily separate the learning process from its outcomes, largely because the causal pathways between experience, behavioral change, and learning are difficult to observe, and because there is often a delay between a cue and its perceived outcome [@dehouwerWhatLearningNature2013; @dehouwerWhyCognitiveApproach2011]. These issues are exacerbated when the same approach is ported to a messy, politicized context such as policymaking [@zakiSystematicReviewPolicy2022].
 
-With the three elements discussed above in place, the policy-embedded learning framework places a premium on the role of information processing in shaping learning processes and outcomes while accounting for the interplay between policymaking contexts, as well as different levels of structures surrounding the learning process, including microfoundational such as prior beliefs, biases, heuristics and frames, as well as more systemic structures such as institutional setups, rules, and governance structures. The emphasis on information and knowledge in this approach, as well as in the broader policy learning literature, can be attributed to its core role in shaping policy actors’ understanding of policy problems and, thus, their patterns of cognitive update and changes in policy behavior. For example, literature shows that various features of the information fed into the learning process (e.g., its disciplinary nature, complexity, accessibility, robustness, and credibility) and the cognitive frameworks through which it is processed or filtered (e.g., biases, heuristics, prior beliefs, and policy preferences) significantly influence learning outcomes [@moysonCognitionPolicyChange2017; @moysonPolicyLearningDecade2018; @zakiSystematicReviewPolicy2022; @malkamakiAcousticsPolicyLearning2021; @nowlinPolicyBeliefsBelief2024; @nowlinPolicyLearningInformation2021; @wagnerCanPolicyForums2020].
+With the three elements discussed above in place, the policy-embedded learning framework places a premium on the role of information processing in shaping learning processes and outcomes while accounting for the interplay between policymaking contexts, as well as different levels of structures surrounding the learning process, including microfoundational such as prior beliefs, biases, heuristics and frames, as well as more systemic structures such as institutional setups, rules, and governance structures. The emphasis on information and knowledge in this approach, as well as in the broader policy learning literature, can be attributed to its core role in shaping policy actors’ understanding of policy problems and, thus, how they update their beliefs and change their behavior. For example, literature shows that various features of the information fed into the learning process (e.g., its disciplinary nature, complexity, accessibility, robustness, and credibility) and the cognitive frameworks through which it is processed or filtered (e.g., biases, heuristics, prior beliefs, and policy preferences) significantly influence learning outcomes [@moysonCognitionPolicyChange2017; @moysonPolicyLearningDecade2018; @zakiSystematicReviewPolicy2022; @malkamakiAcousticsPolicyLearning2021; @nowlinPolicyBeliefsBelief2024; @nowlinPolicyLearningInformation2021; @wagnerCanPolicyForums2020].
 
 Having established a conceptual approach to information-processing-based policy learning and emphasizing the centrality of information and information processing therein, we next focus on the role of information and information processing in learning, including its availability and how it is processed in a collective context.
 
@@ -60,7 +60,7 @@ The collective learning approach separates the process of learning, discussed ab
 
 ## Policy Issues and Policy Core Beliefs
 
-The model of learning through information processing is applicable to any policy beliefs, including deep core, policy core, and secondary beliefs; however, at the systemic level learning as embedded in the policy process is focused on specific policy issues, subsystems, and policy core beliefs. Policy core beliefs are the mid-tier beliefs between deep core and secondary, and are applicable to particular policy issues and the subsystem that arise around those issues. As discussed the in Chapter 2, policy core beliefs are built on a foundation of issue definitions, which consist of the bundle of the various salient dimensions of the policy issue.
+The model of learning through information processing is applicable to any policy beliefs, including deep core, policy core, and secondary beliefs; however, at the systemic level learning as embedded in the policy process is focused on specific policy issues, subsystems, and policy core beliefs. Policy core beliefs are the mid-tier beliefs between deep core and secondary, and are applicable to particular policy issues and the subsystem that arise around those issues. As discussed in Chapter 2, policy core beliefs are built on a foundation of issue definitions, which consist of the bundle of the various salient dimensions of the policy issue.
 
 Our focus is on policy core beliefs because significant policy change occurs as a result of changing policy core beliefs as issues are redefined and understood in new and/or different ways. Whereas, shifting secondary beliefs involves minor policy change [@sabatierAdvocacyCoalitionFramework1999], and changes in deep core beliefs would impact multiple policy issues and subsystems.
 
@@ -68,28 +68,56 @@ Our focus is on policy core beliefs because significant policy change occurs as 
 
 Intertwining policy-embedded learning, collective learning, and information processing, we argue learning can be understood as a process where policy actors (i) seek and (or) acquire imperfect and costly policy-related information, (ii) process that information through individuals and institutions that are influenced by cognitive structures, biases, and heuristics, and (iii) disseminate the resulting understandings, information, knowledge, and experiences. The outcomes of this process could lead to cognitive products, such as changes in policy beliefs, whether in the direction of confirmation or revision, or behavioral products, such as policy changes or changes in policy advocacy strategies [@heikkilaBuildingConceptualApproach2013; @zakiSystematicReviewPolicy2022; @jonesPoliticsAttentionHow2005]. These factors are shown in @fig-framework.
 
-```{mermaid}
-%%| fig-width: 6
-%%| fig-height: 3
-%%| fig-cap: Information Processing, Learning, and Policy Change
-%%| label: fig-framework
-%%{init: {'theme': 'base', "themeVariables": { "primaryColor": "#FFFFFF", "primaryBorderColor": "#000000"} } }%%
-flowchart LR
-    subgraph subgraph1 [<b>Information Processed by </b>]
-	direction TB
-    B[Systems/ <br> Structures] <--> C[Policy <br> Actors]
-    end
-    A[Information] --> subgraph1
-    subgraph1 --> D[<b> Learning </b> <br> Policy Issue]
-    D --> subgraph1
-    subgraph subgraph2 [<b>Results in...</b>]
-    direction TB
-    E[<em> Belief </em> Change] --> 
-    F[<em> Preference </em> Change] -->
-    G[<em> Behavior </em> Change] -->
-    H[<em> <b> Policy Change </b> </em>]
-    end
-    D --> subgraph2
+```{r}
+#| label: fig-framework
+#| fig-cap: "Information Processing, Learning, and Policy Change"
+#| echo: false
+#| message: false
+#| out-width: "100%"
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+
+framework_graph <- grViz("
+digraph framework {
+  graph [rankdir = LR, fontname = Helvetica]
+  node [shape = box, style = filled, fillcolor = white, fontname = Helvetica, fontsize = 12]
+  edge [fontname = Helvetica, fontsize = 10]
+
+  A [label = 'Information']
+  D [label = <<B>Learning</B><BR/>Policy Issue>]
+
+  subgraph cluster_process {
+    label = 'Information Processed by'
+    fontname = 'Helvetica-Bold'
+    B [label = 'Systems/\nStructures']
+    C [label = 'Policy\nActors']
+    B -> C [dir = both]
+  }
+
+  subgraph cluster_results {
+    label = 'Results in...'
+    fontname = 'Helvetica-Bold'
+    E [label = 'Belief Change', fontname = 'Helvetica-Oblique']
+    F [label = 'Preference Change', fontname = 'Helvetica-Oblique']
+    G [label = 'Behavior Change', fontname = 'Helvetica-Oblique']
+    H [label = 'Policy Change', fontname = 'Helvetica-BoldOblique']
+    E -> F -> G -> H
+  }
+
+  A -> B
+  C -> D
+  D -> C
+  D -> E
+}
+")
+
+framework_svg <- export_svg(framework_graph)
+dir.create("figures", showWarnings = FALSE)
+framework_png <- "figures/fig-framework-generated.png"
+rsvg_png(charToRaw(framework_svg), file = framework_png, width = 1400)
+knitr::include_graphics(framework_png)
 ```
 
 The framework depicted in @fig-framework accounts for information, information processing by both policy actors and institutions, and learning outcomes that include cognitive (belief and preference change) and behavioral. Additionally, the framework includes pathways from policy learning (i.e., belief, preference, and behavior change) to policy change. Next, we discuss the various components of the framework, including information, information processing, learning, and outcomes.
@@ -120,28 +148,57 @@ Belief change is the bridge that connects the learning through information proce
 
 The causal pathways from policy learning to policy change include three possible outcomes: no policy change, non-congruent policy change, and congruent policy change [@plumerWhenDoesPolicy2024]. @fig-paths shows the various pathways through which policy change may happen as a result of policy learning through information processing. Specifically, the flow chart in @fig-paths shows the paths that may occur as learning may or may not lead to policy change.  
 
-```{mermaid}
-%%| fig-width: 6
-%%| fig-height: 3
-%%| label: fig-paths
-%%| fig-cap: "Pathways of Policy Learning and Policy Change"
-%%{init: {'theme': 'base', "themeVariables": { "primaryColor": "#FFFFFF", "primaryBorderColor": "#000000"} } }%%
+```{r}
+#| label: fig-paths
+#| fig-cap: "Pathways of Policy Learning and Policy Change"
+#| echo: false
+#| message: false
+#| out-width: "80%"
 
-flowchart TD
-    BC[Belief Change] --> PC[Preference Change]
-    BC -.-> N1[No Policy Change]
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
 
-    PC --> BEH{Behavior Change}
-    PC -.-> N2[No Policy Change]
+paths_graph <- grViz("
+digraph paths {
+  graph [rankdir = TB, fontname = Helvetica]
+  node [shape = box, style = filled, fillcolor = white, fontname = Helvetica, fontsize = 12]
+  edge [fontname = Helvetica, fontsize = 10]
 
-    BEH -->|Non-congruent| BNC[Non-congruent<br/>Behavior Change]
-    BEH -->|Congruent| BCG[Congruent<br/>Behavior Change]
+  BC  [label = 'Belief Change']
+  PC  [label = 'Preference Change']
+  BEH [label = 'Behavior Change']
+  BNC [label = 'Non-congruent\nBehavior Change']
+  BCG [label = 'Congruent\nBehavior Change']
+  PNC [label = 'Non-congruent\nPolicy Change']
+  PCG [label = 'Congruent\nPolicy Change']
+  N1  [label = 'No Preference Change']
+  N2  [label = 'No Behavior Change']
+  N3  [label = 'No Policy Change']
+  N4  [label = 'No Policy Change']
 
-    BNC -.-> N3[No Policy Change]
-    BNC --> PNC[Non-congruent<br/>Policy Change]
+  BC -> PC
+  BC -> N1 [style = dashed]
 
-    BCG -.-> N4[No Policy Change]
-    BCG --> PCG[Congruent<br/>Policy Change]
+  PC -> BEH
+  PC -> N2 [style = dashed]
+
+  BEH -> BNC [label = 'Non-congruent']
+  BEH -> BCG [label = 'Congruent']
+
+  BNC -> N3 [style = dashed]
+  BNC -> PNC
+
+  BCG -> N4 [style = dashed]
+  BCG -> PCG
+}
+")
+
+paths_svg <- export_svg(paths_graph)
+dir.create("figures", showWarnings = FALSE)
+paths_png <- "figures/fig-paths-generated.png"
+rsvg_png(charToRaw(paths_svg), file = paths_png, width = 1000)
+knitr::include_graphics(paths_png)
 ```
 
 As each learning product occurs, the likelihood of policy change through policy learning increases; however, non-congruent changes in behavior and policy are also possible if changes don't align with updated beliefs and preferences. No policy change results when only beliefs change or only beliefs and preferences change without a subsequent policy change. Non-congruent policy change happens when policy change occurs but is not aligned with the changed beliefs and preferences. While not as likely as congruent change, non-congruent change may occur if a powerful minority coalition is able to use institutional processes to their advantage to shape the outcome. The final pathway noted by @plumerWhenDoesPolicy2024 is congruent policy change, where policy change matches the changed policy beliefs and preferences of the majority. To this approach, we add congruent and non-congruent behavior change that precedes policy changes. Non-congruent behavior change involves changes in behaviors that do not align with updated beliefs and preferences, whereas congruent behavior change does align with what was learned.
@@ -150,43 +207,39 @@ In the next section, we draw on extant literature to illustrate the pathways fro
 
 ## Learning and Nuclear Energy Policy Change following Fukushima
 
-The nuclear accident at Fukushima in March 2011 served as a global focusing event and provided a strong information signal about the risks of nuclear energy. As shown in Chapter 2, policy learning through information processing occurred among the elite segment of the US public through a shift in policy beliefs and policy preferences. Now we scale up that insight through the policy-embedded learning framework to examine how the information signal from Fukushima led to policy change (or not) in several countries. Note that we do not perform a systematic comparative analysis of the responses to Fukushima across countries, rather we use brief case vignettes to illustrate how the information signal from Fukushima led to different learning and policy change outcomes in different countries in which consistent with our policy learning and information processing approach.
+The nuclear accident at Fukushima in March 2011 served as a global focusing event and provided a strong information signal about the risks of nuclear energy. As shown in Chapter 3, policy learning through information processing occurred among the elite segment of the US public through a shift in policy beliefs and policy preferences. Now we scale up that insight through the policy-embedded learning framework to examine how the information signal from Fukushima led to policy change (or not) in several countries. Note that we do not perform a systematic comparative analysis of the responses to Fukushima across countries; rather, we use brief case vignettes to illustrate how the information signal from Fukushima led to different learning and policy change outcomes across countries, consistent with our policy learning and information processing approach.
 
-The response to the Fukushima accident was not uniform across countries, and the variation in responses may be attributed, in part, to differences in the information processing of the Fukushima accident, policy context, policy actors, and the governance systems and structures of each country [@daviesFukushimasShadow2015; @ramanaNuclearPolicyResponses2013]. In brief, responses varied, including abandonment of nuclear energy as Germany, Switzerland, Belgium, and Italy chose to discontinue or phase out their nuclear programs [@choEscapeEmbraceReactors2022; @bernardiEffectsFukushimaDisaster2018; @kunschNuclearEnergyPolicy2014]. Other countries, like the United States, France, and the United Kingdom largely maintained their status-quo, with some incremental changes regulartory changes [@daviesFukushimasShadow2015]. Finally, China after   
-
-
-
-"exit" such as Germany's decision to phase out nuclear energy, "public voice" such as in Italy, where public opinion shifted to strongly oppose nuclear energy, and "loyalty", where countries made no or incremental policy changes []. Next we briefly discuss the responses of several countries to Fukushima, including Germany, Italy, Japan, China, United Kingdom, France, and the United States.
-
+The response to the Fukushima accident was not uniform across countries. We organize the vignettes below around two elements of the framework developed above. First, the pathway from belief change to preference change to behavior/policy change, and whether that change is congruent, non-congruent, or absent relative to updated beliefs and preferences (@fig-paths). Second, the policy-embedded learning elements of subsystem type -- unitary, collaborative, or adversarial [@weibleExpertBasedInformationPolicy2008] -- and institutional structure, including veto players and decision costs [@tsebelisVetoPlayersHow2002; @jonesPoliticsAttentionHow2005], that shape whether a processed information signal is able to move from belief change to policy change. In brief, responses to Fukushima varied: Germany, Switzerland, Belgium, and Italy took steps toward discontinuing or phasing out nuclear energy [@choEscapeEmbraceReactors2022; @bernardiEffectsFukushimaDisaster2018; @kunschNuclearEnergyPolicy2014], while the United States, France, the United Kingdom, Japan, and China largely maintained their existing nuclear programs, with some incremental regulatory changes [@daviesFukushimasShadow2015]. Next, we briefly discuss the responses of Germany, Italy, Japan, China, the United Kingdom, France, and the United States to Fukushima.
 
 ### Germany
 
-In June 2011, Angela Merkel noted that "Fukushima changed my attitude towards nuclear energy" [@haunssMultimodalMechanismsPolitical2023, 210]. Similarly, in May 2015 she stated that "Fukushima taught us that we have to deal with risks differently" [@goebelHowNaturalDisasters2015a, 1138].
-These statements reflect the belief change that occurred as a result of the information signal from Fukushima. The belief change led to a preference change, as Merkel and other policymakers shifted their goals towards phasing out nuclear energy. Finally, the behavior change occurred when Germany implemented policies to phase out nuclear power plants, which was congruent with the updated beliefs and preferences of the majority. The case of Germany's response to the Fukushima accident illustrates the pathways from policy learning through information processing to policy change, as outlined in the framework above. The strong information signal from the Fukushima accident led to belief change, which then led to preference change and ultimately to congruent behavior change and policy change. This case also highlights the role of information processing in policy learning, as the information signal from Fukushima was processed through the cognitive and institutional structures of Germany's policymaking system, leading to significant policy change.
-
-The variation in responses to the Fukushima accident illustrates the role of information processing in policy learning and policy change, as well as the various pathways that can lead from learning to policy change.
-
-with some countries, such as Germany and Japan, deciding to phase out nuclear energy, while others, such as the United States and France, decided to continue using nuclear energy but with increased safety measures.
-
-The accident led to significant policy learning in several countries, including Germany, which had a long history of anti-nuclear activism and had been considering phasing out nuclear energy for some time. The information signal from Fukushima led to a significant shift in public opinion against nuclear energy in Germany, which in turn led to changes in policy beliefs among policymakers. As a result, Germany decided to phase out all nuclear power plants by 2022, a decision that was largely congruent with the updated beliefs and preferences of the majority of the public and policymakers [@nowlinEnvironmentalPolicymakingEra2019; @herwegMultipleStreamsFramework2023; @kingdonAgendasAlternativesPublic1984].
+Germany's nuclear subsystem prior to Fukushima was adversarial: an anti-nuclear coalition had contested the pro-nuclear coalition's dominant position since large-scale protests against the Brokdorf reactor in the late 1970s and 1980s, giving that opposing coalition established organizational capacity and public legitimacy well before 2011 [@glaserBrokdorfFukushimaLong2012]. The accident also struck during a state election campaign, raising the political cost of inaction for the governing coalition and helping explain why Germany, unlike Japan, saw an immediate change in the ruling party's stance [@namComparativeAnalysisDecision2021]. This context meant the strong information signal from Fukushima was processed into policy change relatively quickly. Belief change is evident in Chancellor Angela Merkel's own account: in June 2011 she stated that "Fukushima changed my attitude towards nuclear energy" [@haunssMultimodalMechanismsPolitical2023, 210], and in May 2015 that "Fukushima taught us that we have to deal with risks differently" [@goebelHowNaturalDisasters2015a, 1138]. This belief change was followed by a preference change toward phasing out nuclear energy, and then by congruent behavior and policy change as Germany legislated a phase-out of all nuclear power plants by 2022 [@choEscapeEmbraceReactors2022; @bernardiEffectsFukushimaDisaster2018; @kunschNuclearEnergyPolicy2014].
 
 ### Italy
 
-In Italy, the response to the Fukushima accident was also significant, with a shift in public opinion against nuclear energy. However, Italy's response was more focused on public voice and opposition to nuclear energy rather than policy change. In 2011, Italy held a referendum on nuclear energy, where 94% of voters opposed the use of nuclear energy [@ramanaNuclearPolicyResponses2013]. Despite this strong opposition, Italy did not implement a complete phase-out of nuclear energy but rather decided to halt plans for new nuclear power plants and to focus on renewable energy sources. This case illustrates a pathway where belief change and preference change occurred, but the behavior change was not congruent with the updated beliefs and preferences, as Italy did not fully phase out nuclear energy but rather made incremental changes.
+Individual-level survey data collected one month before and one month after the accident show that Italian belief change was measurable and substantial: participants reported significant decreases in nuclear trust and pro-nuclear attitudes following Fukushima [@pratiEffectFukushimaNuclear2012]. This belief change was echoed at the collective level in a June 2011 referendum, where 94% of voters rejected the Berlusconi government's plan to restart Italy's nuclear energy program -- a program that had been dormant since a referendum following Chernobyl ended Italian nuclear generation in the 1980s [@ramanaNuclearPolicyResponses2013]. Because Italy had no operating nuclear plants at the time of Fukushima, the referendum's effect was to block a planned reversal of the existing non-nuclear status quo rather than to produce a new phase-out policy. This case illustrates strong belief and preference change that produced a non-congruent (or arguably null) policy outcome relative to new legislation, since the behavior change available to Italian voters -- blocking a restart -- was categorically different from the phase-out decision facing Germany.
 
 ### Japan
 
-In Japan, the response to the Fukushima accident was significant, with a shift in public opinion against nuclear energy. However, Japan's response was more focused on loyalty and incremental policy change rather than a complete phase-out of nuclear energy. In 2012, Japan shut down all of its nuclear power plants for safety checks and implemented new safety regulations. However, Japan has not made a complete phase-out of nuclear energy and has instead focused on improving safety measures and diversifying its energy sources [@ramanaNuclearPolicyResponses2013]. This case illustrates a pathway where belief change and preference change occurred, but the behavior change was not congruent with the updated beliefs and preferences, as Japan did not fully phase out nuclear energy but rather made incremental changes.
+Japan's nuclear subsystem prior to Fukushima was dominated by a coalition linking the nuclear industry, the bureaucracy (the Ministry of Economy, Trade and Industry), and the ruling party -- a structure associated with status-quo bias even after a strong information signal [@weibleExpertBasedInformationPolicy2008; @jonesPoliticsAttentionHow2005]. Public opinion shifted sharply against nuclear energy after the accident, more so than in Britain, where a comparable pre-accident expansion of nuclear capacity had been planned [@poortingaPublicPerceptionsClimate2013]. In response, Japan shut down its nuclear reactors for safety inspections and, in 2012, created an independent Nuclear Regulation Authority [@andrews-speedGoverningNuclearSafety2020]. Belief and preference change also reached the governing coalition itself: in September 2012, the Democratic Party of Japan (DPJ) cabinet, which had displaced the long-dominant Liberal Democratic Party (LDP) in 2009, announced a policy to phase out nuclear power by 2039, a substantial change from prior energy policy [@watanabeFukushimaDisasterJapans2016]. This congruent policy change proved short-lived, however: the LDP's return to power in the December 2012 election reversed the phase-out policy, restoring a business-as-usual approach to nuclear energy despite continued public opposition [@ramanaNuclearPolicyResponses2013; @aldrichTriggersPolicyChange2019]. Comparative work attributes this divergence from Germany's outcome, in part, to the greater political stability of Japan's governing coalition and to economic and geopolitical factors that made a nuclear exit more costly for Japan than for Germany [@namComparativeAnalysisDecision2021; @feldhoffPostFukushimaEnergyPaths2014; @mellalliPostFukushimaPoliticalPressure2020]. The Japanese case thus illustrates that a congruent policy change can be reversed as readily as it was adopted when institutional structures -- here, a parliamentary election replacing the governing coalition -- present a low barrier to reversing course: low decision costs cut in both directions.
 
 ### China
 
-In China, the response to the Fukushima accident was more focused on loyalty and incremental policy change rather than a complete phase-out of nuclear energy. China has continued to develop its nuclear energy program but has also implemented new safety regulations and increased oversight of its nuclear power plants [@ramanaNuclearPolicyResponses2013]. This case illustrates a pathway where belief change and preference change may have occurred, but the behavior change was not congruent with the updated beliefs and preferences, as China did not fully phase out nuclear energy but rather made incremental changes.
+China's nuclear subsystem is state-controlled, with policy authority concentrated in central government bodies rather than contested among competing coalitions [@muChinasApproachNuclear2015]. Following Fukushima, China suspended approval of new nuclear power plants for roughly three years while conducting nationwide safety reviews and revising its safety standards and institutional oversight [@lamChinasResponseNuclear2022; @muChinasApproachNuclear2015]. Approvals resumed once expanded regulatory measures and newer reactor technology were in place, and China's nuclear construction program subsequently continued to expand [@guoNuclearPowerDevelopment2016; @daviesFukushimasShadow2015]. This pattern suggests the information signal produced some belief change regarding near-term safety practice -- reflected in the multi-year pause and the adoption of new safety measures -- without a corresponding shift in the underlying preference for nuclear energy expansion, consistent with a unitary subsystem's capacity to absorb an information signal through technical adjustment rather than core belief, preference, or policy change.
 
 ### United Kingdom
 
+Britain's nuclear subsystem going into 2011 was collaborative, with an established coalition of government, regulators, and utilities pursuing a planned expansion of new nuclear capacity -- centered on the Hinkley Point project -- as part of climate policy, a commitment the government pursued "with undiminished determination" even as its cost and subsidy assumptions proved unrealistic [@thomasHinkleyPointDecision2016]. Comparative survey data show that public support for nuclear power in Britain dropped in the immediate aftermath of Fukushima, though less sharply than in Japan, and recovered as time passed [@poortingaPublicPerceptionsClimate2013]. This modest and short-lived belief change was not accompanied by preference change within the governing coalition: leaked correspondence revealed that British government officials coordinated with nuclear companies on a public-relations strategy to play down the relevance of the Fukushima accident to UK reactor safety, in order to protect public and political support for the existing nuclear program [@ramanaNuclearPolicyResponses2013]. Anti-nuclear protests continued at proposed reactor sites such as Hinkley Point, but the government's expansion plans proceeded largely unchanged [@ramanaNuclearPolicyResponses2013]. This case illustrates limited belief change with no meaningful preference or policy change, consistent with a collaborative subsystem's capacity to manage an information signal through elite framing rather than substantive reconsideration.
+
 ### France
 
+France's heavy dependence on nuclear energy, generated primarily through the state-linked utility EDF, reflects a nuclear subsystem with limited contestation relative to Germany's -- a structure rooted in the centralized, state-driven build-out of French nuclear power that a public-choice analysis of French energy policy traces to the origins of the program itself [@feldmanPublicChoiceTheory1986]. Following Fukushima, French media coverage and official communications worked to construct and normalize nuclear risk rather than amplify it, reinforcing existing pro-nuclear attitudes rather than producing belief change [@schweitzerRiskNormalizationNuclear2018]. At the European level, French and other regulators participated in EU-coordinated reactor "stress tests" that were framed as confirming the adequacy of existing safety practices rather than as evidence requiring a change in nuclear policy [@sarac-lesavreStressTestingEuropeNormalizing2019]. Some opposition parties did adopt platforms favoring reduced reliance on nuclear energy [@ramanaNuclearPolicyResponses2013], but this modest preference change among a minority coalition did not translate into government policy. This case illustrates an information signal that was processed and largely absorbed by the dominant coalition's framing efforts, producing little belief, preference, or policy change among decision-makers.
+
 ### United States
+
+In the United States, survey research discussed in Chapter 3 shows a measurable but modest and short-lived shift in public attitudes following Fukushima, concentrated among individuals paying close attention to the accident and moderated by prior political ideology and environmental values [@besleyImpactAccidentAttention2014; @bernardiEffectsFukushimaDisaster2018; @guptaTrackingNuclearMood2019]. Longitudinal analysis suggests this attitude shift faded within a relatively short period [@soniOutSightOut2018], consistent with the broader finding that Fukushima's impact on US nuclear policy had a shorter "shelf life" than its impact in Germany [@hoffmanShelfLifeDisaster2018]. At the regulatory level, the Nuclear Regulatory Commission's Near-Term Task Force, convened within weeks of the accident, recommended a package of safety upgrades -- including hardened venting systems for Mark I and Mark II containment designs and strengthened station blackout mitigation -- while explicitly concluding that existing regulations already addressed design-basis events adequately, framing the proposed changes as directed at the beyond-design-basis events Fukushima represented rather than as a reconsideration of the regulatory framework itself [@blakeInsightsFukushimaDaiichi2011]. Neither the governing coalition's preference for nuclear energy as part of the US energy mix, nor the overall policy commitment to existing nuclear infrastructure, changed [@daviesFukushimasShadow2015]. This pattern -- modest and short-lived belief change, incremental regulatory adjustment, and no change in preferences or overall policy commitment -- reflects the absence of a veto-player realignment capable of translating a temporary shift in public attention into policy change [@jonesPoliticsAttentionHow2005].
+
+Taken together, these vignettes illustrate that the same strong information signal produced congruent policy change only where an adversarial subsystem and comparatively low institutional barriers allowed a contesting coalition to translate belief and preference change into behavior change, as in Germany. Where the nuclear subsystem was unitary, state-controlled, or collaborative around an entrenched pro-nuclear coalition -- China, the United Kingdom, France, and the United States -- status-quo bias and the absence of a veto-player realignment limited learning to incremental or non-congruent outcomes, regardless of the strength of belief change among the public. Japan illustrates a further wrinkle: a congruent policy change did occur when the DPJ cabinet adopted a phase-out policy, but that change was reversed just as quickly once a parliamentary election replaced the governing coalition, showing that low institutional barriers can undo congruent change as readily as they enable it. Italy occupies a middle case, where strong public belief and preference change blocked a planned policy reversal without producing new institutional change beyond that. This variation underscores the analytical value of the policy-embedded learning framework: the same information signal, processed through different subsystem and institutional contexts, produces markedly different learning and policy outcomes.
 
 ## Conclusion
 

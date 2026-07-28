@@ -4,13 +4,13 @@
 
 Policy actors and institutions generally have a wide array of information available about potential problems, policy alternatives, and political factors. All of this available information has the potential to contribute to policy learning. Yet actors and institutions are unable to effectively process all available information. Therefore, learning is based on which bits of information receive attention and how they are processed through the belief systems of policy actors and the institutional structures of the policymaking system. 
 
-In this chapter, we develop a model of policy learning through information processing. We place beliefs and belief systems at the core of the model, as they structure the policy actors' attention to, interpretation, and weighting of incoming information. Additionally, we utilize a Bayesian framework to situate the interaction of beliefs, information, and information processing. A Bayesian approach includes prior beliefs, a likelihood function where information signals are weighed relative to prior beliefs, and posterior beliefs, or beliefs following the processing of information. In brief, learning occurs through selective attention to information signals and their reconciliation with prior beliefs. The model conceptualizes this reconciliation explicitly by treating beliefs as structured priors that organize attention and interpretation, and by treating policy-relevant information as signals that vary in clarity, strength, and credibility. On this view, learning is not synonymous with just any belief shift. Rather, learning is belief updating that is attributable to the interaction between priors and informational cues under identifiable conditions of attention and processing. 
+In this chapter, we develop a model of policy learning through information processing. We place beliefs and belief systems at the core of the model, as they structure the policy actors' attention to, interpretation, and weighting of incoming information. Additionally, we utilize a Bayesian framework to situate the interaction of beliefs, information, and information processing. A Bayesian approach includes prior beliefs, a likelihood function where information signals are weighed relative to prior beliefs, and posterior beliefs, or beliefs following the processing of information. In brief, learning occurs through selective attention to information signals and their reconciliation with prior beliefs. The model conceptualizes this reconciliation explicitly by treating beliefs as structured priors that organize attention and interpretation, and by treating policy-relevant information as signals that vary in clarity, strength, and credibility. On this view, learning is not synonymous with just any belief shift. Rather, learning is belief updating that can be traced to the interaction between prior beliefs and new information under specific conditions of attention and processing. 
 
 Depending on how information signals compare to prior beliefs, the process can yield several belief-related outcomes, including no learning, belief decay, belief reinforcement, or belief change. We reserve the term learning for belief change that moves in the direction of processed information. The chapter proceeds by first detailing belief systems and their role in policy learning, and then we lay out the learning through information processing model.
 
 ## Belief Systems and Learning
 
-Our focus on the belief systems of policy actors is drawn from the policy-oriented learning aspect of the Advocacy Coalition Framework (ACF). Policy-oriented learning is a cognitive process based on policy beliefs, belief systems, and belief change. It is defined as "enduring alterations of thought or behavioral intentions that result from experience, and which are concerned with the attainment or revision of the precepts of the belief systems of individuals or of collectives" [@jenkins-smithDynamicsPolicyOrientedLearning1993, 42]. Hence, learning here involves changes in thought and behavior that result from changes in the belief systems of individuals or collectives. This definition pivots on a cognitive process that produces belief and behavioral change, while also recognizing that learning occurs among individuals and collectives [also see @gerlakBuildingTheoryLearning2011; @heikkilaBuildingConceptualApproach2013].
+Our focus on the belief systems of policy actors is drawn from the policy-oriented learning aspect of the Advocacy Coalition Framework (ACF). Policy-oriented learning is a cognitive process based on policy beliefs, belief systems, and belief change. It is defined as "enduring alterations of thought or behavioral intentions that result from experience, and which are concerned with the attainment or revision of the precepts of the belief systems of individuals or of collectives" [@jenkins-smithDynamicsPolicyOrientedLearning1993, 42]. Hence, learning here involves changes in thought and behavior that result from changes in the belief systems of individuals or collectives. This definition centers on a cognitive process that produces belief and behavioral change, while also recognizing that learning occurs among individuals and collectives [also see @gerlakBuildingTheoryLearning2011; @heikkilaBuildingConceptualApproach2013].
 
 Beliefs are things that are thought to be a true and accurate representation of the world by the policy actors who hold them. Additionally, beliefs exist in systems of interrelated and connected beliefs. Policy scholars have long noted that beliefs manifest in a hierarchical, three-tiered system of belief types, including deep core beliefs, policy core beliefs, and secondary beliefs. Within the belief hierarchy, beliefs move from abstract foundational beliefs, termed deep core beliefs, to beliefs specific to a policy issue or subsystem, known as policy core beliefs, and to secondary beliefs, which focus on particular means to achieve policy goals. Deep core beliefs inform and constrain policy core beliefs, and deep core and policy core beliefs constrain secondary beliefs. 
 
@@ -24,19 +24,45 @@ It is also important to distinguish between policy beliefs and policy preference
 
 @fig-defs illustrates our formulation of the relationships between policy beliefs, issue definitions, and policy preferences. 
 
-```{mermaid}
-%%| fig-width: 6
-%%| fig-height: 2
-%%| fig-cap: Policy Beliefs, Issue Definitions, and Preferences
-%%| label: fig-defs
-%%{init: {'theme': 'base', "themeVariables": { "primaryColor": "#FFFFFF", "primaryBorderColor": "#000000"} } }%%
-flowchart LR
-    A[Deep Core Beliefs] --> subgraph1
-    subgraph subgraph1 [<b>Policy Core Beliefs]
-    B[Salience of Issue Dimensions] --> C[Issue Definition]
-    end
-    subgraph1 --> D[Secondary Beliefs]
-    D --> E[Policy Preferences]
+```{r}
+#| label: fig-defs
+#| fig-cap: "Policy Beliefs, Issue Definitions, and Preferences"
+#| echo: false
+#| message: false
+#| out-width: "100%"
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+
+defs_graph <- grViz("
+digraph defs {
+  graph [rankdir = LR, fontname = Helvetica]
+  node [shape = box, style = filled, fillcolor = white, fontname = Helvetica, fontsize = 12]
+  edge [fontname = Helvetica, fontsize = 10]
+
+  A [label = 'Deep Core Beliefs']
+  subgraph cluster_pcb {
+    label = 'Policy Core Beliefs'
+    fontname = 'Helvetica-Bold'
+    B [label = 'Salience of Issue Dimensions']
+    C [label = 'Issue Definition']
+    B -> C
+  }
+  D [label = 'Secondary Beliefs']
+  E [label = 'Policy Preferences']
+
+  A -> B
+  C -> D
+  D -> E
+}
+")
+
+defs_svg <- export_svg(defs_graph)
+dir.create('figures', showWarnings = FALSE)
+defs_png <- 'figures/fig-defs-generated.png'
+rsvg_png(charToRaw(defs_svg), file = defs_png, width = 1600)
+knitr::include_graphics(defs_png)
 ```
 
 
@@ -45,17 +71,21 @@ As shown in @fig-defs, deep core beliefs shape policy core beliefs, which consis
 Policy-oriented learning is largely assumed to be associated with belief change. However, scholars have also noted that belief reinforcement can be a type of or an outcome of policy learning [@pattisonFactorsShapingPolicy2018; @nohrstedtAdvocacyCoalitionFramework2023]. Indeed, belief reinforcement seems to be the most common type of learning [@weibleAdvocacyCoalitionsBeliefs2022]. Recent work has proposed that policy learning as change and reinforcement can be explained when policy beliefs are understood as a probability distribution with a central tendency (the belief) and variance (uncertainty about the belief) [@nowlinPolicyBeliefsBelief2024]. With this approach, learning as belief change occurs when there is a shift in the central tendency, and learning as belief reinforcement occurs when there is a reduction in variance. Using this approach, policy learning outcomes include no change in beliefs (i.e., no learning), belief reinforcement (i.e., a reduction in uncertainty), belief change (i.e., learning, or a significant shift in the central tendency), or belief change and reinforcement (i.e., a shift in beliefs and a reduction of uncertainty) [@nowlinPolicyBeliefsBelief2024]. The likelihood of belief change is a function of the strength of the belief, with firmly held beliefs with low uncertainty less likely to change than less firmly held or less certain beliefs [@nowlinPolicyLearningInformation2021; @jenkins-smithAdvocacyCoalitionFramework2018]. 
 
 
-<!-- move these context paragraphs to chap 4? -->
+<!-- move these context paragraphs to chap 3? -->
 
 <!-- Policy-oriented learning occurs within and across individuals and collectives as part of a collective learning process. More broadly, collective learning can be understood as consisting of two parts, including "(1) a 'collective process,' which may include acquiring new knowledge through diverse actions (e.g., trial and error), assessing information and disseminating new knowledge or opportunities across individuals in a collective, and (2) 'collective products' that emerge from the process, such as new shared ideas, strategies, rules, or policies (@gerlakBuildingTheoryLearning2011, 623). The first part, the process of learning involves acquiring knowledge, whereas the second part, learning products involves the outcomes associated with the process of learning. -->
 
-Belief systems are comprised of deep core beliefs, policy core beliefs that include issue definitions, and secondary beliefs that inform policy preferences. The ubiquity of information surrounding policy actors provides opportunities to learn, either by updating or reinforcing beliefs. As noted, the interaction between information and heuristics, biases, and beliefs has long been understood as important for policy outcomes [@simonAdministrativeBehaviorStudy1997; @deutschNervesGovernmentModels1963]; yet little work has explicitly focused on these interactions as drivers of learning. Drawing on work on information and information processing in the policy process, we understand information as signals about problems and solutions that emanate throughout the policymaking system [@jonesPoliticsAttentionHow2005; @workmanInformationProcessingPolicy2009]. Information processing occurs once policy actors attended to those signals. 
+Belief systems are comprised of deep core beliefs, policy core beliefs that include issue definitions, and secondary beliefs that inform policy preferences. The abundance of information surrounding policy actors provides opportunities to learn, either by updating or reinforcing beliefs. As noted, the interaction between information and heuristics, biases, and beliefs has long been understood as important for policy outcomes [@simonAdministrativeBehaviorStudy1997; @deutschNervesGovernmentModels1963]; yet little work has explicitly focused on these interactions as drivers of learning. Drawing on work on information and information processing in the policy process, we understand information as signals about problems and solutions that emanate throughout the policymaking system [@jonesPoliticsAttentionHow2005; @workmanInformationProcessingPolicy2009]. Information processing occurs once policy actors attended to those signals. 
 
 The nature of information and information processing for policymaking is discussed in detail in Chapter 4. Briefly, information for policymaking is imperfect, costly, and asymmetric; however, policy actors face incentives to share information, otherwise they risk allowing other actors to define the policy issue. Therefore, information about policy problems is ubiquitous in the policy process. It comes in the form of information on conditions and problems collected by government agencies (e.g., inflation, unemployment, crime), lobbying by interest groups, media reporting, and public opinion data, among many others. Additionally, focusing events, such as a disaster, terrorist attack, or pandemic provide strong information signals about potential problems [@birklandDisasterAgendaSetting1997; @birklandFocusingEventsMobilization1998; @birklandWorldChangedToday2004; @deleoDisasterRefiningConcept2021]. Information flows need to be processed to determine what, if any, actions are needed. However, given the amount of information present, only some signals are processed, while many others are ignored. In the next section, we lay out the learning through information processing model.   
 
 ## Learning and Information Processing Model  
 
-Recent work combined belief-oriented policy learning with insights from the information processing literature to develop a model of policy learning through information processing [@nowlinPolicyLearningInformation2021]. The model focuses on cognitive processes associated with learning and uses a Bayesian framework to illustrate belief change and updating. A Bayesian approach to policy was first applied by scholars of policy diffusion, where learning was seen as an important mechanism for the movement of policy ideas across governments [@braunTakingGaltonProblem2006; @meseguerWhatRoleLearning2004a]. In brief, a Bayesian framework involves a prior belief, information that is attended to and processed through a likelihood function, and a posterior belief that is a function of the prior beliefs and the information. Information signals that receive no or little attention are not processed further. 
+Recent work combined belief-oriented policy learning with insights from the information processing literature to develop a model of policy learning through information processing [@nowlinPolicyLearningInformation2021]. The model focuses on cognitive processes associated with learning and uses a Bayesian framework to illustrate belief change and updating. A Bayesian approach to policy was first applied by scholars of policy diffusion, where learning was seen as an important mechanism for the movement of policy ideas across governments [@braunTakingGaltonProblem2006; @meseguerWhatRoleLearning2004a]. In this literature, learning is understood as a process by which governments update their beliefs about the effectiveness of a policy after observing the outcomes of that policy in other jurisdictions, distinct from other diffusion mechanisms, such as competitive or cooperative interdependence, coercion, or symbolic imitation, that do not depend on a revision of beliefs [@braunTakingGaltonProblem2006]. @braunTakingGaltonProblem2006 further distinguish rational learning, which they conceptualize explicitly in Bayesian terms, from bounded learning, in which actors gather information about the experience of others but process that information through cognitive shortcuts, such as representativeness, availability, and anchoring, rather than through formal Bayesian updating. Bounded learning is, in their account, less effective at incorporating available information than fully Bayesian learning, though both share the same basic goal of determining whether a policy is likely to work based on the experience of others -- a distinction directly analogous to the one we draw upon below between belief updating that is proportional to the strength of an information signal and belief updating that is bounded by the strength of prior beliefs.
+
+@meseguerWhatRoleLearning2004a offers a direct empirical application of this Bayesian logic, modeling governments as rational learners who hold prior beliefs about the effectiveness of privatization and revise those beliefs using Bayes' rule as they observe the growth outcomes experienced by other countries that have and have not privatized. In her formalization, a government's posterior belief about a policy's average effectiveness is a precision-weighted average of its prior belief and the information supplied by the experience of others, such that governments with more precise, or more strongly held, prior beliefs update less in response to new experience, while governments with more diffuse or uncertain priors update more. This is structurally the same logic that underlies the model developed below: belief change is a function of the relative strength, or precision, of the prior belief compared to the strength of the incoming information signal. Empirically, Meseguer finds that this Bayesian learning mechanism was a strong and robust predictor of governments' initial decisions to privatize, net of competing explanations such as international pressure and domestic politics, lending some empirical credibility to modeling policy-relevant belief updating in explicitly Bayesian terms, though she also finds that its explanatory power is more limited once a government has already begun privatizing, suggesting that Bayesian updating may better explain the initial adoption of a belief-consistent policy than its subsequent continuation.
+
+In brief, a Bayesian framework involves a prior belief, information that is attended to and processed through a likelihood function, and a posterior belief that is a function of the prior beliefs and the information. Information signals that receive no or little attention are not processed further. 
 
 In more formal terms and using notation from @druckmanEvidenceMotivatedReasoning2019, the model includes a prior belief that is understood as a probability distribution about the true state of the world expressed as $\pi$($\mu$) ~ _N_($\hat{\mu}_0$, $\hat{\sigma}^{2}_{0}$) where $\pi$($\mu$) is the true state of the world, $\hat{\mu}_0$ is an individual's belief about the state of the world, and $\hat{\sigma}_0$ is their uncertainty about their beliefs. Next, the individual encounters some information, _x_, expressed as _N_($\mu$, $\hat{\sigma}^{2}_{x}$), where $\hat{\sigma}^{2}_{x}$ represents the individual's likelihood function or how she processes and weights the information. Finally, the individual updates her beliefs in light of the information $\pi$($\mu$|x). 
 
@@ -93,8 +123,8 @@ Additionally, the interaction between prior beliefs and the likelihood function 
 
 In this chapter, we outlined a model of policy learning based on the interaction of beliefs, including deep core, policy core, and secondary, and information. The model is based in a Bayesian framework with prior beliefs that have a distribution with a central tendency and variance, a likelihood function where information signals are weighted, and posterior beliefs, which are also a distribution and include a central tendency and variance. The central tendency, the variance, or both may shift as a result of information processing. Therefore, the model produces several possible outcomes, including no learning, belief decay, belief reinforcement, and belief change.    
 
-<!-- may need to expand this with examples; ask Bishoy 
-This model of learning is intended to be generalizable enough to capture many of the elements of learning discussed in Chapter 2. For example, the model can be applied to multiple conceptual approaches and theoretical descriptors of learning shown in @tbl-learn-concept. The model focuses on the process and mechanisms of learning as well as learning outcomes. While it is grounded in micro-foundations, its insights can be scaled to the meso and macro level (see @tbl-learn-levels), as we assume a similar learning process for individuals and collectives. Finally, the model can account for various types, modes, mechanisms, forms, and degrees of learning shown in @tbl-learn-descript. In the next chapter, we examine the model empirically using US public opinion data about nuclear energy before and after the Fukushima nuclear accident. 
+<!--  
+This model of learning is intended to be generalizable enough to capture many of the elements of learning discussed in Chapter 5. For example, the model can be applied to multiple conceptual approaches and theoretical descriptors of learning shown in @tbl-learn-concept. The model focuses on the process and mechanisms of learning as well as learning outcomes. While it is grounded in micro-foundations, its insights can be scaled to the meso and macro level (see @tbl-learn-levels), as we assume a similar learning process for individuals and collectives. Finally, the model can account for various types, modes, mechanisms, forms, and degrees of learning shown in @tbl-learn-descript. In the next chapter, we examine the model empirically using US public opinion data about nuclear energy before and after the Fukushima nuclear accident. 
 --> 
 
 

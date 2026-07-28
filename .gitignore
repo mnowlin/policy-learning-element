@@ -6,6 +6,12 @@
 *.quarto_ipynb
 index.log
 
+# Generated diagram images (regenerable from chap4.qmd R chunks)
+/figures/
+
+# Generated table asset images from modelsummary/tinytable
+/tinytable_assets/
+
 # Combined manuscript is regenerable from manuscript.qmd (quarto render)
 /manuscript.docx
 

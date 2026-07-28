@@ -2,16 +2,15 @@
 
 ## Introduction
 
-<!-- justify the use of public opinion data -->
-
 The learning through information processing model focuses on belief change following the processing of information. Beliefs are thought to be of one of three types, including deep core, policy core, and secondary. Learning is understood as a change in beliefs. The model posits that belief change is a function of the strength of the prior belief and the strength of the information signal.
 
 In this chapter, to illustrate the utility of our approach, we examine public opinion data on nuclear energy before and after the Fukushima nuclear accident. The Fukushima accident in Japan, was a focusing event that served as a strong information signal about the risks of nuclear energy. In this case, we examine how policy core beliefs, specifically the issue definition of nuclear energy, and preferences for constructing new nuclear power plants changed as a result of Fukushima.
 
-While much of the policy learning literature centers on learning among elite policy actors, we believe that using public opinion data can shed light on the nature of belief systems, information processing, and learning. Indeed, public opinion data has been used by policy process scholars to examine belief systems [e.g., @jenkins-smithRockHardPlace2009; @ripbergerCulturalTheoryMeasurement2014] and policy learning [@nowlinPolicyLearningInformation2021; @offer-westortWhichFrameFits2026; @nowlinLearningUncertaintyInformation2025; @nowlinPolicyBeliefsBelief2024].
-We recognize that the ACF is typically about the beliefs and behaviors of elites within advocacy coalitions. However, our interests are in beliefs and belief system structures posited by the ACF, not other elements of the framework. 
+Before turning to the data, it is important to justify our use of public opinion, rather than a sample of policy elites, to test the learning through information processing model. Our approach to belief systems draws on the Advocacy Coalition Framework, which is typically applied to coalitions of elite policy actors [@sabatierPolicyChangeLearning1993; @jenkins-smithDynamicsPolicyOrientedLearning1993]. However, our interest is in the internal structure of belief systems -- deep core, policy core, and secondary beliefs -- and in the process by which beliefs update in response to information, not in the coalition dynamics or venue-specific behaviors that are the other central concerns of the ACF. Modeling how citizens, rather than elites, update political beliefs and attitudes in response to information is itself a long-standing and independent tradition in political behavior research, one that engages directly with information processing among the mass public rather than borrowing uncomfortably from elite-level theory. Formal Bayesian models of citizen learning have a substantial history in this literature [@gerberRationalLearningPartisan1998; @bullockPartisanBiasBayesian2009], and a large body of related work examines how ordinary citizens receive, resist, and are persuaded by political information [@zallerNatureOriginsMass1992; @zallerPoliticalAwarenessElite1990; @lodgePartisanSchemaPolitical1986; @kuklinskiReconsideringRationalPublic2000]. Our approach is therefore continuous with, rather than an awkward extension of, an established literature on information processing among citizens.
 
-One advantage of using public opinion is the larger number of potential respondents, compared to an elite sample, and the greater variation available to explore, compared to a small sample of elites. Additionally, research has shown that the belief systems of the public and elites have a similar structure [@herronPerceptionsNuclearSecurity2002; @tumlisonCulturalValuesTrust2019; @jenkins-smithForeignDomesticPolicy2004]. Given the similar structure of belief systems, it is likely that the dynamics of policy learning associated with beliefs would be similar across elite and public samples. For this project, we are able to take advantage of 17 years of data that tracks beliefs and preferences regarding nuclear energy. Overall, public opinion data is a useful test bed to empirically explain learning through information processing. However, to approximate elites as closely as possible, we use the portion of the public sample that has received an advanced degree beyond a bachelor's degree [as did @ripbergerCulturalTheoryMeasurement2014].
+A second, complementary justification concerns whether the structure of belief systems -- specifically, whether beliefs are organized hierarchically and update coherently in response to information -- is comparable between elites and the public. Converse's foundational work on belief systems in mass publics found that constraint among political beliefs is not uniform across the public, but concentrated among the more politically sophisticated and attentive segment of citizens, who reason about political issues in ways that more closely resemble elites [@converseNatureBeliefSystems1964a]. Building on this insight, subsequent research has directly compared elite and mass belief systems using the same core, policy core, and secondary belief hierarchy this element relies on, and in a closely related substantive domain. @herronPerceptionsNuclearSecurity2002 compared two elite samples (physical scientists and state legislators) with two general-public samples on beliefs about nuclear security, a domain chosen precisely because its complexity and historical secrecy make it a demanding test of whether structure can be found among the mass public at all. Across descriptive, relational, and coalitional analyses, they found that core beliefs (political ideology) predicted policy core beliefs (perceived risks and benefits), which in turn predicted secondary preferences, in the same direction and with the same statistically significant pattern among the public as among elites -- though elite belief systems were more tightly integrated, with core and policy core beliefs explaining substantially more variance in secondary preferences among elites than among the public. In other words, the *structure* of belief systems replicated across elite and mass samples even though elite beliefs were more strongly organized. @jenkins-smithForeignDomesticPolicy2004 extend this finding across a different comparison, showing that the same hierarchical structure of nuclear-related beliefs holds among mass publics in both the United States and Great Britain, despite the two countries' publics differing substantially in their average beliefs -- evidence that this hierarchical structure is not an artifact of a single national context. In a different substantive domain, @tumlisonCulturalValuesTrust2019 similarly found that the same values-to-trust-to-risk-perception pathway operated among both policy elites and the general public, with one notable difference in degree: trust in information sources played a larger mediating role for elites than for the public. Taken together, this work supports a precise version of the elite-mass similarity claim: the *relationships* among beliefs, and the hierarchical structure our model assumes, replicate across elite and mass samples and across national contexts, even as elite belief systems remain somewhat more tightly constrained than those of the public. Following this logic, rather than relying on the public as a whole, we restrict our analytic sample to respondents with an advanced degree beyond a bachelor's, a common strategy for approximating the more attentive and sophisticated stratum of the public [as did @ripbergerCulturalTheoryMeasurement2014]. This restriction is intended to approximate the population in which Converse's attentive-public reasoning, and the belief-system structure it implies, should be most present, rather than to claim that an advanced degree alone confers elite status. Using public opinion data on nuclear energy also follows established precedent: @kuklinskiCitizenKnowledgeChoices1982 examined citizen knowledge and decision-making on this same issue using public opinion data, and public opinion has more broadly been used to study belief systems and policy learning [@jenkins-smithRockHardPlace2009; @ripbergerCulturalTheoryMeasurement2014; @nowlinPolicyLearningInformation2021; @offer-westortWhichFrameFits2026; @nowlinLearningUncertaintyInformation2025; @nowlinPolicyBeliefsBelief2024].
+
+A skeptical reader might note that a substantial body of research questions whether citizens update political beliefs in a considered, Bayesian fashion at all, arguing instead that political reasoning is often driven by partisan or group identity rather than by the evidence at hand [@achenDemocracyRealistsWhy2017a]. This critique is aimed principally at the low-information, low-attentiveness citizens who make up the bulk of the mass public -- precisely the respondents excluded by our restriction to an advanced-degree sample -- and related work defends Bayesian learning models of citizen attitudes once measurement error and motivated reasoning are properly accounted for [@gerberRationalLearningPartisan1998]. In addition, the Fukushima accident is the kind of highly salient, widely covered focusing event that research on low-information rationality suggests citizens can process meaningfully even without specialized issue expertise [@lupiaDemocraticDilemmaCan1998; @kuklinskiCitizenKnowledgeChoices1982], further supporting its use as a strong information signal for the public as well as for elites. Finally, public opinion data offers the practical advantage of a much larger number of respondents and greater variation than would be available in a sample of policy elites; for this project, this allows us to draw on 17 years of data tracking beliefs and preferences regarding nuclear energy. Taken together, these considerations support public opinion, and particularly the advanced-degree subsample used here, as a useful and defensible population in which to test the learning through information processing model.
 
 ## Nuclear Energy Beliefs and Preferences 
 
@@ -21,18 +20,43 @@ In the context of the information processing and learning model, the Fukushima a
 
 At the heart of policy core beliefs is the issue definition, or the various dimensions of the issue weighted by their salience. As dimensions are added or the salience of the dimensions change, learning regarding policy core beliefs becomes more likely. Following changes to the issue definition, policy core beliefs are likely to be updated. With the model of policy learning through information processing, learning occurs when the information signal is strong relative to the prior beliefs. Strongly held prior beliefs would only change with an extremely strong and heavily weighted information signal. In the case of nuclear energy, the Fukushima accident was a strong signal about the risks of nuclear energy and likely made the dimensions of risks associated with nuclear energy more salient, thus altering the issue definition and thereby altering the policy core beliefs. As shown in @fig-defs, policy preferences may change following the updating of policy core beliefs, and @fig-model illustrates the process for nuclear energy.
 
-```{mermaid}
-%%| fig-width: 6
-%%| fig-height: 2
-%%| fig-cap: Ideology, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants
-%%| label: fig-model
-%%{init: {'theme': 'base', "themeVariables": { "primaryColor": "#FFFFFF", "primaryBorderColor": "#000000"} } }%%
-flowchart LR
-    A[Political Ideology] --"<i>Information <br> Processing"---> subgraph1
-    subgraph subgraph1 [<b>Issue Definition]
-    B[Benefits] <--> C[Risks]
-    end
-    subgraph1 --"<i>Information <br> Processing"---> D[More Nuclear Plants]
+```{r}
+#| label: fig-model
+#| fig-cap: "Ideology, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants"
+#| echo: false
+#| message: false
+#| out-width: "100%"
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+
+model_graph <- grViz("
+digraph model {
+  graph [rankdir = LR, fontname = Helvetica]
+  node [shape = box, style = filled, fillcolor = white, fontname = Helvetica, fontsize = 12]
+  edge [fontname = Helvetica, fontsize = 10]
+
+  A [label = 'Political Ideology']
+  subgraph cluster_id {
+    label = 'Issue Definition'
+    fontname = 'Helvetica-Bold'
+    B [label = 'Benefits']
+    C [label = 'Risks']
+    B -> C [dir = both]
+  }
+  D [label = 'More Nuclear Plants']
+
+  A -> B [label = 'Information\nProcessing', fontname = 'Helvetica-Oblique']
+  C -> D [label = 'Information\nProcessing', fontname = 'Helvetica-Oblique']
+}
+")
+
+model_svg <- export_svg(model_graph)
+dir.create('figures', showWarnings = FALSE)
+model_png <- 'figures/fig-model-generated.png'
+rsvg_png(charToRaw(model_svg), file = model_png, width = 1600)
+knitr::include_graphics(model_png)
 ```
 
 As shown in @fig-model, information is processed relative to deep core beliefs (i.e., political ideology), and as a result, the issue definition of nuclear energy (i.e., policy core beliefs) is potentially updated. Note that the issue definition of nuclear energy is constituted by dimensions associated with the benefits and risks of nuclear energy. The updating of policy preferences results from the same learning dynamic. Information processing occurs along the chain of deep core beliefs $\rightarrow$ policy core beliefs $\rightarrow$ policy preferences, and updating occurs when the information signal is sufficiently strong relative to the prior belief or preference. Learning happens when the beliefs or the certainty associated with the beliefs change significantly. To estimate the model shown in @fig-model, we use survey data from an elite sample, those with post-bachelors degrees, of the US public collected over 17 years.
@@ -85,11 +109,11 @@ preData <- as.data.frame(subset(nukeDataC2, fuk==0))
 postData <- as.data.frame(subset(nukeDataC2, fuk==1))
 ```
 
-To examine the impact of the Fukushima accident on beliefs about nuclear energy, we draw on data from 17 years, 2006-2023, of nationwide surveys of US residents.[^chap4-1] The Institute for Public Policy Research and Analysis at the University of Oklahoma developed and administered the surveys, which were fielded annually. The quota-based samples for each survey were recruited by firms such as Survey Sampling International and Qualtrics, and the quotas for gender, race, and age helped to ensure that the samples were as representative as possible of the US population.[^chap4-2] In each survey, respondents were asked about their views on energy and environmental issues, including nuclear energy. Additionally, the surveys gauged respondents' deep core beliefs by including measures of political ideology. However, our interest is in beliefs and policy learning among elite policy actors, not the general public. To best account for how policy elites might update beliefs and preferences, we use only the sample of survey respondents who have completed an advanced degree. Overall, the combined surveys include `r nrow(nukeDataC2)` respondents with advanced degrees, which we use for the subsequent analysis. Next, we discuss the measures we used to examine beliefs and policy preferences regarding nuclear energy.
+To examine the impact of the Fukushima accident on beliefs about nuclear energy, we draw on data from 17 years, 2006-2023, of nationwide surveys of US residents.[^chap4-1] The Institute for Public Policy Research and Analysis at the University of Oklahoma developed and administered the surveys, which were fielded annually. The quota-based samples for each survey were recruited by firms such as Survey Sampling International and Qualtrics, and the quotas for gender, race, and age helped to ensure that the samples were as representative as possible of the US population.[^chap4-2] In each survey, respondents were asked about their views on energy and environmental issues, including nuclear energy. Additionally, the surveys gauged respondents' deep core beliefs by including measures of political ideology. As discussed above, we restrict our analytic sample to respondents who have completed an advanced degree, in order to approximate the more attentive and sophisticated stratum of the public in which elite-like belief structures are most likely to be present. Overall, the combined surveys include `r nrow(nukeDataC2)` respondents with advanced degrees, which we use for the subsequent analysis. Next, we discuss the measures we used to examine beliefs and policy preferences regarding nuclear energy.
 
 [^chap4-1]: Some years are missing due to question wording changes. We thank Dr. Hank Jenkins-Smith and Dr. Kuhika Gupta for the use of the data.
 
-[^chap4-2]: Response rates are not available, which may raise a concern about non-response bias. However, quota samples insure that the sample matches the population on several important demographic characteristics, thus reducing bias concerns [].    
+[^chap4-2]: Response rates for these surveys are not available, which is a limitation of the data, since response rate is one indicator commonly associated with the risk of non-response bias. However, response rate alone is an incomplete measure of that risk: what matters for bias is whether respondents differ systematically from non-respondents on the characteristics of interest, not the rate of response itself [@grovesTotalSurveyError2010]. The quota-based sampling approach used here, which matches the sample to known population benchmarks on gender, race, and age, is a widely used method for improving the representativeness of non-probability samples of this kind [@bakerResearchSynthesisAAPOR2010]. It does not, however, rule out bias on unobserved or attitudinal dimensions not covered by the quotas, and we treat the absence of response-rate data as a limitation of the study rather than a fully resolved concern.
 
 ### Deep Core Beliefs
 
@@ -138,6 +162,10 @@ To measure policy preferences, we examine support for building more nuclear powe
 For analysis, we combine and average the two scales into a single one to seven measure of support for more nuclear energy plants. The average support for more nuclear plants is `r round(mean(nukeDataC2$morePlants, na.rm = TRUE),3)`, which is above the scale midpoint of 4.
 
 ## Results
+
+Before turning to the pre- and post-Fukushima comparisons and regression analyses, we note that descriptive statistics and pairwise correlations for the variables used throughout this chapter's analysis, both restricted to the advanced-degree subsample used in the analyses below, are reported in the appendix to this chapter.[^chap3-appendix]
+
+[^chap3-appendix]: See Table A.1 and Table A.2 in the Appendix.
 
 ```{r diff of means}
 #| echo: false
@@ -290,30 +318,72 @@ modelsTotal <- list("Risks"=olsRiskFuk, "Benefits"=olsBenefitFuk, "More Plants"=
 modelsummary(modelsTotal, stars = TRUE, coef_map = cm, gof_map = gm)
 ```
 
+*Note:* Standard errors appear in parentheses below each coefficient.
+
 As shown in @tbl-results, increasing conservatism is associated with lower risk perceptions, higher perceptions of benefits, and greater support for more nuclear plants. In addition, perceptions of risks increased and perceptions of benefits, and support for more plants both decreased following the Fukushima accident, on average. Interestingly, the benefits and risks of nuclear energy are positively associated at *p*\<0.10. But, as expected, an increase in the perceived risks is negatively associated with support for more plants, whereas an increase in perceived benefits is positively associated. For the demographic variables, age is negatively associated with perceived risks, perceived benefits, and support for more plants. Finally, both males and whites perceive less risk, greater benefits, and higher levels of support for more nuclear power plants than non-males and non-whites.
 
 Our final analysis is a path analysis to show the influence of political ideology, Fukushima, and beliefs about the risks and benefits of nuclear energy on preferences for more nuclear power plants.[^chap4-4] Path analysis includes standardized coefficients, which allow us to compare the impact of the various independent variables on the dependent variable. In addition, path analysis accounts for the various effects of political ideology and Fukushima on preferences for more nuclear power plants. @fig-results shows the results of the path analysis, including the standardized betas.
 
 [^chap4-4]: For the path analysis we used the standardized coefficients from the OLS regression shown in @tbl-results.
 
-```{mermaid}
-%%| fig-width: 6
-%%| fig-height: 2
-%%| fig-cap: Path Analysis of Ideology, Fukushima, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants
-%%| label: fig-results
-%%{init: {'theme': 'base', "themeVariables": { "primaryColor": "#FFFFFF", "primaryBorderColor": "#000000"} } }%%
-flowchart LR
-    A[Political Ideology <br> <i> more conservative] --"0.071***" ---> B[Benefits]
-    A[Political Ideology <br> <i> more conservative] --"-0.106***" ---> C[Risks]
-    A[Political Ideology <br> <i> more conservative] --"0.131***" --> D
-    E[Fukushima] --"-0.03*"--> B
-    E[Fukushima] --"0.121***"--> C
-    B --"0.455***"--> D[More Nuclear Plants]
-    C --"-0.288***"---> D[More Nuclear Plants]
-    E[Fukushima] --"-0.03**"-----> D
-    D ~~~ N["* p<0.05; ** p<0.01; *** p<0.001"]
-    style N fill:none,stroke:none
+```{r}
+#| label: fig-results
+#| fig-cap: "Path Analysis of Ideology, Fukushima, Nuclear Energy Beliefs, and Preferences for More Nuclear Plants"
+#| echo: false
+#| message: false
+#| out-width: "100%"
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+
+get_beta_stars <- function(model, var) {
+  b <- unname(round(lm.beta(model)[var], 3))
+  p <- summary(model)$coefficients[var, 4]
+  stars <- if (p < 0.001) "***" else if (p < 0.01) "**" else if (p < 0.05) "*" else ""
+  paste0(sprintf("%.3f", b), stars)
+}
+
+lbl_A_B <- get_beta_stars(olsBenefitFuk, "ideology")
+lbl_A_C <- get_beta_stars(olsRiskFuk, "ideology")
+lbl_A_D <- get_beta_stars(olsMorePlantsFuk, "ideology")
+lbl_E_B <- get_beta_stars(olsBenefitFuk, "fuk")
+lbl_E_C <- get_beta_stars(olsRiskFuk, "fuk")
+lbl_B_D <- get_beta_stars(olsMorePlantsFuk, "nukeBenefit")
+lbl_C_D <- get_beta_stars(olsMorePlantsFuk, "nukeRisk")
+lbl_E_D <- get_beta_stars(olsMorePlantsFuk, "fuk")
+
+results_graph <- grViz(sprintf("
+digraph results {
+  graph [rankdir = LR, fontname = Helvetica]
+  node [shape = box, style = filled, fillcolor = white, fontname = Helvetica, fontsize = 12]
+  edge [fontname = Helvetica, fontsize = 10]
+
+  A [label = 'Political Ideology\n(more conservative)']
+  E [label = 'Fukushima']
+  B [label = 'Benefits']
+  C [label = 'Risks']
+  D [label = 'More Nuclear Plants']
+
+  A -> B [label = '%s']
+  A -> C [label = '%s']
+  A -> D [label = '%s']
+  E -> B [label = '%s']
+  E -> C [label = '%s']
+  B -> D [label = '%s']
+  C -> D [label = '%s']
+  E -> D [label = '%s']
+}
+", lbl_A_B, lbl_A_C, lbl_A_D, lbl_E_B, lbl_E_C, lbl_B_D, lbl_C_D, lbl_E_D))
+
+results_svg <- export_svg(results_graph)
+dir.create('figures', showWarnings = FALSE)
+results_png <- 'figures/fig-results-generated.png'
+rsvg_png(charToRaw(results_svg), file = results_png, width = 1600)
+knitr::include_graphics(results_png)
 ```
+
+*Note:* \* p\<0.05; \*\* p\<0.01; \*\*\* p\<0.001
 
 As shown in @fig-results, increasing conservatism is associated with an increase in the perceived benefits of nuclear energy, a decrease in the perceived risks associated with nuclear energy, and an increase in the support for more nuclear power plants. Additionally, the Fukushima accident is associated with a decrease in perceived benefits, an increase in perceived risks, and a decrease in support for more nuclear plants. However, comparing the standardized coefficients, we see that ideology had a larger influence on each outcome measure than Fukushima, with the perceived benefits coefficient for ideology at `r round(lm.beta(olsBenefitFuk)[4],3)` and the coefficient for Fukushima is `r round(lm.beta(olsBenefitFuk)[6],3)`. Similarly, the perceived risk estimates are `r round(lm.beta(olsRiskFuk)[4],3)` for ideology and `r round(lm.beta(olsRiskFuk)[6],3)` for Fukushima.
 
@@ -340,10 +410,42 @@ As shown in @tbl-med, deep core beliefs had larger total effects on support for 
 
 ## Conclusion
 
-In this chapter, we use public opinion data about nuclear energy taken across nearly two decades to examine the policy learning through information processing model. While scholars of policy learning are generally concerned with learning among elite policy actors, public opinion can be a useful test bed for understanding the mechanics of our learning model, namely, beliefs and belief change. Previous research has found that the public and elites have similar belief system structures, and by using that portion of the sample that has an advanced degree, we rely on the elite sub-sample of the data.
+In this chapter, we use public opinion data about nuclear energy taken across nearly two decades to examine the policy learning through information processing model. While scholars of policy learning are generally concerned with learning among elite policy actors, public opinion can be a useful test bed for understanding the mechanics of our learning model, namely, beliefs and belief change. As discussed above, research on belief systems in mass publics suggests that elite-like belief structures are concentrated among the more attentive and sophisticated segment of the public, and restricting our analysis to respondents with an advanced degree is intended to approximate that segment, rather than to claim the sample is itself composed of policy elites.
 
 The model posits that learning as belief updating is a function of the strength of the information signal relative to the strength of the prior belief, and only when the information signal is sufficiently strong does belief shift. In addition, belief systems are hierarchical and three-tired, with deep core beliefs shaping policy core beliefs and both deep core and policy core beliefs shaping secondary beliefs. While any type of belief can change, secondary beliefs are most likely to change, followed by policy core beliefs, with deep core beliefs least likely to change.
 
 Our findings support the model, as beliefs about nuclear energy changed significantly in response to the Fukushima accident. The Fukushima accident acted as a strong information signal about the risks of nuclear energy. Learning seemed to occur as the policy core beliefs associated with nuclear energy (e.g., the risks and benefits of nuclear energy) changed significantly following Fukushima. Consistent with Fukushima being a signal of risk, risk perceptions increased significantly, while perceptions of the benefits of nuclear energy shifted by a smaller margin. Additionally, support for building more nuclear power plants dropped significantly following Fukushima, as perceptions of risk and benefits shifted. Finally, deep core beliefs acted as filters for information processing, as increasing conservatism was associated with decreasing perceptions of risk, increasing perceptions of benefits, and increased support for building more nuclear power facilities, even while controlling for the impacts of Fukushima. Indeed, @tbl-med illustrates that the deep core belief of ideology had a larger overall effect on nuclear energy beliefs than the Fukushima accident. Thus, even as learning occurred regarding policy core and secondary beliefs, that learning was shaped and likely muted by deep core beliefs.
 
 The model of learning through information processing discussed thus far focuses on beliefs and information processing among policy actors; however, for belief change to lead to policy change, it must be understood within the broader context of policymaking. In the next chapter, we examine how the model fits into the broader policymaking system and how learning can lead to policy change.
+
+## Appendix
+
+Table A.1 reports descriptive statistics for the variables used throughout this chapter's analysis, and Table A.2 reports the pairwise correlations among the core continuous variables, both restricted to the advanced-degree subsample used in the analyses above.
+
+**Table A.1: Descriptive Statistics for Variables Used in the Analysis (Advanced-Degree Subsample)**
+
+```{r appendix descriptives}
+#| echo: false
+#| warning: false
+
+library(modelsummary)
+
+descVars <- subset(nukeData, grad==1)[, c("nukeRisk","nukeBenefit","morePlants","ideology","age","gender","white","fuk")]
+colnames(descVars) <- c("Risks","Benefits","More Plants","Ideology","Age","Gender (male=1)","Race (white=1)","Fukushima")
+
+datasummary_skim(descVars,
+  fun_numeric = list(Mean = Mean, SD = SD, Min = Min, Median = Median, Max = Max,
+                      Histogram = function(x) "", "Missing Pct." = PercentMissing))
+```
+
+**Table A.2: Pairwise Correlations Among Core Continuous Variables (Advanced-Degree Subsample)**
+
+```{r appendix correlations}
+#| echo: false
+#| warning: false
+
+corrVars <- descVars[, c("Risks","Benefits","More Plants","Ideology","Age")]
+datasummary_correlation(corrVars)
+```
+
+As shown in Table A.1, the analytic sample has some missing data on the risk, benefit, and more-plants scales (4-6%), consistent with standard item non-response on multi-item survey batteries. Table A.2 shows that perceived risks and perceived benefits of nuclear energy are only weakly correlated with each other, while support for more nuclear plants is more strongly correlated with both risk and benefit perceptions than with any other variable in the model, consistent with the issue-definition mechanism discussed above.
